@@ -1,0 +1,6 @@
+<map id="PizzazzLibrary.Pizza.Pizza" name="PizzazzLibrary.Pizza.Pizza">
+<area shape="rect" id="node1" title="A generic pizza" alt="" coords="167,5,349,229"/>
+<area shape="rect" id="node2" href="$class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator.html" title=" " alt="" coords="153,277,363,369"/>
+<area shape="rect" id="node3" href="$class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator.html" title="A customized pizza based on another pizza. The customer pays 10 cents extra on top each ingredient ad..." alt="" coords="5,417,247,568"/>
+<area shape="rect" id="node4" href="$class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita.html" title=" " alt="" coords="271,432,512,553"/>
+</map>

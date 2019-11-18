@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_f60ab7e9cd56a0aabc289b1320763586" kind="dir">
+    <compoundname>PizzazzLibrary/Pizza</compoundname>
+    <innerdir refid="dir_21b0fe0d0d62c8109358b06e1a681e89">PizzazzLibrary/Pizza/Implementation</innerdir>
+    <innerdir refid="dir_67ccf7647267e0fbec2645cfc0b3624d">PizzazzLibrary/Pizza/Interfaces</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/Pizza/"/>
+  </compounddef>
+</doxygen>

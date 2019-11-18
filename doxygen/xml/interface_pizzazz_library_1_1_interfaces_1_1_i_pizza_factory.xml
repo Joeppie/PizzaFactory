@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory" kind="interface" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Interfaces::IPizzaFactory</compoundname>
+    <derivedcompoundref refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory" prot="public" virt="non-virtual">PizzazzLibrary.Implementation.CustomPizzaFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory" prot="public" virt="non-virtual">PizzazzLibrary.Implementation.PizzaMargheritaFactory</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_1a20183671e617d58bac4f5b315b9a5289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza PizzazzLibrary.Interfaces.IPizzaFactory.PreparePizza</definition>
+        <argsstring>()</argsstring>
+        <name>PreparePizza</name>
+        <reimplementedby refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e">PreparePizza</reimplementedby>
+        <reimplementedby refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aec407cf7ac8bf57aa19efebb8a6f083c">PreparePizza</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Interfaces/IPizzaFactory.cs" line="9" column="15"/>
+        <referencedby refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" compoundref="_delivery_8cs" startline="19" endline="32">Pizzazz.PizzaDelivery.DeliverPizza</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>PizzazzLibrary.Implementation.PizzaMargheritaFactory</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PizzazzLibrary.Implementation.CustomPizzaFactory</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Interfaces.IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Interfaces.IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Interfaces/IPizzaFactory.cs" line="8" column="1" bodyfile="PizzazzLibrary/Pizza/Interfaces/IPizzaFactory.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_1a20183671e617d58bac4f5b315b9a5289" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Interfaces::IPizzaFactory</scope><name>PreparePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

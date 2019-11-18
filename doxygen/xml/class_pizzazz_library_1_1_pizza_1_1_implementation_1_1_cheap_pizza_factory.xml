@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Pizza::Implementation::CheapPizzaFactory</compoundname>
+    <basecompoundref refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Interfaces.IPizzaFactory</basecompoundref>
+    <basecompoundref refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Interfaces.IPizzaFactory</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>BasePizza</type>
+      </param>
+      <param>
+        <type>ExtraToppings</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory_1a5fec7f521dd6b32b71672903d3255cb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza PizzazzLibrary.Pizza.Implementation.CheapPizzaFactory&lt; BasePizza, ExtraToppings &gt;.CreatePizza</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePizza</name>
+        <reimplements refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory_1a1706a7bfb48ba003033feb79d9a4986c">CreatePizza</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/CheapPizzaFactory.cs" line="10" column="22" bodyfile="PizzazzLibrary/Pizza/Implementation/CheapPizzaFactory.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory_1a5fec7f521dd6b32b71672903d3255cb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza PizzazzLibrary.Pizza.Implementation.CheapPizzaFactory&lt; BasePizza, ExtraToppings &gt;.CreatePizza</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePizza</name>
+        <reimplements refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory_1a1706a7bfb48ba003033feb79d9a4986c">CreatePizza</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="18" column="22" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Creates a custom pizza factory that works </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>BasePizza</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ExtraToppings</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Implementation.CheapPizzaFactory&lt; BasePizza, ExtraToppings &gt;</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Implementation.CheapPizzaFactory&lt; BasePizza, ExtraToppings &gt;</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="17" column="1" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="14" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory_1a5fec7f521dd6b32b71672903d3255cb5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Implementation::CheapPizzaFactory</scope><name>CreatePizza</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_cheap_pizza_factory_1a5fec7f521dd6b32b71672903d3255cb5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Implementation::CheapPizzaFactory</scope><name>CreatePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

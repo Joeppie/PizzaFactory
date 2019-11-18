@@ -1,0 +1,6 @@
+<map id="Pizzazz.Program.GoedkopePizza" name="Pizzazz.Program.GoedkopePizza">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,191,80"/>
+<area shape="rect" id="node2" href="$class_pizzazz_1_1_pizza_delivery.html#a607ac3d199d74f438f4199436ac371f0" title="Delivers a pizza which is optionally cut." alt="" coords="239,39,432,80"/>
+<area shape="rect" id="node3" href="$class_pizzazz_library_1_1_implementation_1_1_pizza.html#a5b1b0a742974af9c94be7f83dd18255a" title=" " alt="" coords="480,5,684,47"/>
+<area shape="rect" id="node4" href="$interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory.html#a20183671e617d58bac4f5b315b9a5289" title=" " alt="" coords="490,71,674,112"/>
+</map>

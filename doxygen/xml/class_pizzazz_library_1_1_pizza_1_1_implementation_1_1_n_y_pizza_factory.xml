@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_n_y_pizza_factory" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Pizza::Implementation::NYPizzaFactory</compoundname>
+    <basecompoundref refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Interfaces.IPizzaFactory</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Implementation.NYPizzaFactory</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_n_y_pizza_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Implementation.NYPizzaFactory</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_n_y_pizza_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Implementation/NYPizzaFactory.cs" line="9" column="1" bodyfile="PizzazzLibrary/Pizza/Implementation/NYPizzaFactory.cs" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory_1a1706a7bfb48ba003033feb79d9a4986c" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Implementation::NYPizzaFactory</scope><name>CreatePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

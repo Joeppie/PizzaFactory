@@ -1,0 +1,192 @@
+\hypertarget{class_pizzazz_1_1_program}{}\doxysection{Pizzazz.\+Program Class Reference}
+\label{class_pizzazz_1_1_program}\index{Pizzazz.Program@{Pizzazz.Program}}
+
+
+Collaboration diagram for Pizzazz.\+Program\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_pizzazz_1_1_program__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_pizzazz_1_1_program_a55d55eef333d0da99e7bb5e2cd1516af}{Main}} (string\mbox{[}$\,$\mbox{]} args)
+\item 
+static void \mbox{\hyperlink{class_pizzazz_1_1_program_ae8bf38ff433befa82d40a0204f869103}{Goedkope\+Pizza}} ()
+\item 
+static void \mbox{\hyperlink{class_pizzazz_1_1_program_a1297be8d0a88a676b4b24e4af36a5c79}{Dure\+Pizza}} ()
+\item 
+static void \mbox{\hyperlink{class_pizzazz_1_1_program_a661bdea260afbfb4c3ba43bbc5d5d2d7}{Pizza\+Margherita\+Met\+Salami}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Program.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pizzazz_1_1_program_a1297be8d0a88a676b4b24e4af36a5c79}\label{class_pizzazz_1_1_program_a1297be8d0a88a676b4b24e4af36a5c79}} 
+\index{Pizzazz.Program@{Pizzazz.Program}!DurePizza@{DurePizza}}
+\index{DurePizza@{DurePizza}!Pizzazz.Program@{Pizzazz.Program}}
+\doxysubsubsection{\texorpdfstring{DurePizza()}{DurePizza()}}
+{\footnotesize\ttfamily static void Pizzazz.\+Program.\+Dure\+Pizza (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 42 of file Program.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43         \{}
+\DoxyCodeLine{44             \textcolor{comment}{//Maak een duurdere pizza margherita door zelf een eigen pizza samen te stellen vanaf het deeg (dom!)}}
+\DoxyCodeLine{45             \textcolor{comment}{//Betere keuze is alleen toevoegen wat er nog op moet; omdat je anders per ingredient extra veel betaalt.}}
+\DoxyCodeLine{46             var expensiveDelivery = \textcolor{keyword}{new} PizzaDelivery();}
+\DoxyCodeLine{47             var customFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory}{CustomPizzaFactory}}();}
+\DoxyCodeLine{48             customFactory.ExtraIngredients = \textcolor{keyword}{new} List<Ingredient>() \{ \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce}{TomatoSauce}}(), \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese}{Cheese}}(), \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil}{Basil}}() \};}
+\DoxyCodeLine{49             expensiveDelivery.factory = customFactory;}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} badDeal = expensiveDelivery.DeliverPizza();}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53             Console.WriteLine();}
+\DoxyCodeLine{54             Console.WriteLine(\$\textcolor{stringliteral}{"DurePizza() \(\backslash\)r\(\backslash\)n\(\backslash\)t \{badDeal\}"});}
+\DoxyCodeLine{55             Debugger.Break();}
+\DoxyCodeLine{56         \}}
+
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_1_1_program_a1297be8d0a88a676b4b24e4af36a5c79_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pizzazz_1_1_program_ae8bf38ff433befa82d40a0204f869103}\label{class_pizzazz_1_1_program_ae8bf38ff433befa82d40a0204f869103}} 
+\index{Pizzazz.Program@{Pizzazz.Program}!GoedkopePizza@{GoedkopePizza}}
+\index{GoedkopePizza@{GoedkopePizza}!Pizzazz.Program@{Pizzazz.Program}}
+\doxysubsubsection{\texorpdfstring{GoedkopePizza()}{GoedkopePizza()}}
+{\footnotesize\ttfamily static void Pizzazz.\+Program.\+Goedkope\+Pizza (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 30 of file Program.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{31         \{}
+\DoxyCodeLine{32             \textcolor{comment}{//Maak een goedkope pizza margherita.}}
+\DoxyCodeLine{33             PizzaDelivery cheapDelivery = \textcolor{keyword}{new} PizzaDelivery();}
+\DoxyCodeLine{34             cheapDelivery.factory = \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory}{PizzaMargheritaFactory}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_aff7102fc6ac8d0a570724d5969fc4323}{Instance}};}
+\DoxyCodeLine{35             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} goodDeal = cheapDelivery.DeliverPizza();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37             Console.WriteLine();}
+\DoxyCodeLine{38             Console.WriteLine(\$\textcolor{stringliteral}{"GoedkopePizza() \(\backslash\)r\(\backslash\)n\(\backslash\)t \{goodDeal\}"});}
+\DoxyCodeLine{39             Debugger.Break();}
+\DoxyCodeLine{40         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_1_1_program_ae8bf38ff433befa82d40a0204f869103_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_1_1_program_ae8bf38ff433befa82d40a0204f869103_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pizzazz_1_1_program_a55d55eef333d0da99e7bb5e2cd1516af}\label{class_pizzazz_1_1_program_a55d55eef333d0da99e7bb5e2cd1516af}} 
+\index{Pizzazz.Program@{Pizzazz.Program}!Main@{Main}}
+\index{Main@{Main}!Pizzazz.Program@{Pizzazz.Program}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily static void Pizzazz.\+Program.\+Main (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 16 of file Program.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{17         \{}
+\DoxyCodeLine{18             \textcolor{comment}{//De PizzaMargheritaFactory is een singleton; er is er maar één; ze zijn allemaal toch precies hetzelfde.}}
+\DoxyCodeLine{19             var rauwePizza = \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory}{PizzaMargheritaFactory}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_aff7102fc6ac8d0a570724d5969fc4323}{Instance}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_aec407cf7ac8bf57aa19efebb8a6f083c}{PreparePizza}}();}
+\DoxyCodeLine{20             Console.WriteLine(\$\textcolor{stringliteral}{"Vers uit de singleton: \{rauwePizza\}"});}
+\DoxyCodeLine{21             Debugger.Break();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23             \mbox{\hyperlink{class_pizzazz_1_1_program_ae8bf38ff433befa82d40a0204f869103}{GoedkopePizza}}();}
+\DoxyCodeLine{24             \mbox{\hyperlink{class_pizzazz_1_1_program_a1297be8d0a88a676b4b24e4af36a5c79}{DurePizza}}();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26             \mbox{\hyperlink{class_pizzazz_1_1_program_a661bdea260afbfb4c3ba43bbc5d5d2d7}{PizzaMargheritaMetSalami}}();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_1_1_program_a55d55eef333d0da99e7bb5e2cd1516af_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pizzazz_1_1_program_a661bdea260afbfb4c3ba43bbc5d5d2d7}\label{class_pizzazz_1_1_program_a661bdea260afbfb4c3ba43bbc5d5d2d7}} 
+\index{Pizzazz.Program@{Pizzazz.Program}!PizzaMargheritaMetSalami@{PizzaMargheritaMetSalami}}
+\index{PizzaMargheritaMetSalami@{PizzaMargheritaMetSalami}!Pizzazz.Program@{Pizzazz.Program}}
+\doxysubsubsection{\texorpdfstring{PizzaMargheritaMetSalami()}{PizzaMargheritaMetSalami()}}
+{\footnotesize\ttfamily static void Pizzazz.\+Program.\+Pizza\+Margherita\+Met\+Salami (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 59 of file Program.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60         \{}
+\DoxyCodeLine{61             var expensiveDelivery = \textcolor{keyword}{new} PizzaDelivery();}
+\DoxyCodeLine{62             var customFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory}{CustomPizzaFactory}}();}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64             \textcolor{comment}{//Geef aan welke Pizza als basis gebruikt moet gaan worden; dit levert aan beter prijs plaatje op.}}
+\DoxyCodeLine{65             customFactory.BasePizza = \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory}{PizzaMargheritaFactory}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_aff7102fc6ac8d0a570724d5969fc4323}{Instance}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_aec407cf7ac8bf57aa19efebb8a6f083c}{PreparePizza}}();}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67             \textcolor{comment}{//Het enige extra ingredient is salami.}}
+\DoxyCodeLine{68             customFactory.ExtraIngredients = \textcolor{keyword}{new} List<Ingredient>() \{ \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami}{Salami}}()\};}
+\DoxyCodeLine{69             expensiveDelivery.factory = customFactory;}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} NotBadNotGreatDeal = expensiveDelivery.DeliverPizza();}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73             Console.WriteLine();}
+\DoxyCodeLine{74             Console.WriteLine(\$\textcolor{stringliteral}{"PizzaMargheritaMetSalami() \(\backslash\)r\(\backslash\)n\(\backslash\)t \{NotBadNotGreatDeal\}"});}
+\DoxyCodeLine{75             Debugger.Break();}
+\DoxyCodeLine{76         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_1_1_program_a661bdea260afbfb4c3ba43bbc5d5d2d7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_1_1_program_a661bdea260afbfb4c3ba43bbc5d5d2d7_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Pizzazz/\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}

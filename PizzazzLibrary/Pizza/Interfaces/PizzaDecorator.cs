@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PizzazzLibrary.Pizza.Interfaces
+namespace PizzazzLibrary.Implementation
 {
-    class PizzaDecorator : Pizza
+    public abstract class PizzaDecorator : Pizza
     {
-        public Pizza Pizza { get; private set; }
+        protected Pizza decoratedPizza { get; private set; }
 
-
+        public PizzaDecorator(Pizza pizzaToDecorate)
+        {
+            decoratedPizza = pizzaToDecorate;
+        }
     }
 }

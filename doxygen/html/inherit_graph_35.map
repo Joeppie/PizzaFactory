@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pizzazz_library_1_1_implementation_1_1_pizza.html" title="A generic pizza" alt="" coords="5,39,209,80"/>
+<area shape="rect" id="node2" href="$class_pizzazz_library_1_1_implementation_1_1_pizza_decorator.html" title=" " alt="" coords="257,39,461,80"/>
+<area shape="rect" id="node3" href="$class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator.html" title="A customized pizza based on another pizza. The customer pays 10 cents extra on top each ingredient ad..." alt="" coords="509,5,713,47"/>
+<area shape="rect" id="node4" href="$class_pizzazz_library_1_1_implementation_1_1_pizza_margherita.html" title=" " alt="" coords="509,71,713,112"/>
+</map>

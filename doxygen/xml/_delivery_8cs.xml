@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_delivery_8cs" kind="file" language="C#">
+    <compoundname>Delivery.cs</compoundname>
+    <innerclass refid="class_pizzazz_1_1_pizza_delivery" prot="public">Pizzazz::PizzaDelivery</innerclass>
+    <innernamespace refid="namespace_pizzazz">Pizzazz</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_implementation" kindref="compound">Implementation</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_interfaces" kindref="compound">Interfaces</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_pizzazz" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pizzazz" kindref="compound">Pizzazz</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_pizzazz_1_1_pizza_delivery" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pizzazz_1_1_pizza_delivery" kindref="compound">PizzaDelivery</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory" kindref="compound">IPizzaFactory</ref><sp/><ref refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" kindref="member">factory</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref><sp/><ref refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" kindref="member">DeliverPizza</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cut<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>pizza<sp/>=<sp/><ref refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" kindref="member">factory</ref>.<ref refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_1a20183671e617d58bac4f5b315b9a5289" kindref="member">PreparePizza</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pizza.<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a5b1b0a742974af9c94be7f83dd18255a" kindref="member">Bake</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cut)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pizza.Cut();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pizza.Package();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pizza;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Pizzazz/Delivery.cs"/>
+  </compounddef>
+</doxygen>

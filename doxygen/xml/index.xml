@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::Basil</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1a3e53a531619643d6c8de62de84d146cc" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1a8b3f2c504c6ace35fd31a32ff2ebb7b1" kind="variable"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1aebb9a980639e133e65bdf1f169af6520" kind="variable"><name>CostPrice</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::Cheese</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese_1a5378d64fd004ec547c12b407104b9022" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese_1a7abdcfee33ab06180d5b1a778dc47b82" kind="variable"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese_1ab97255266dbcd31e78fc09f9ced5db55" kind="variable"><name>CostPrice</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator" kind="class"><name>PizzazzLibrary::Implementation::CustomPizaDecorator</name>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1a13725e0de84755a06fa78bf11a70f34d" kind="variable"><name>_extraIngredients</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1af3034d4077f8e8de72bbb69749a9612d" kind="variable"><name>_calculatedPrice</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1a983c94a63fafd98cee50e88f0013c2c3" kind="variable"><name>Price</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1a452a5f553cf88de6a738c8bbbc1907fa" kind="function"><name>CustomPizaDecorator</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1a5caa586e10fc3b86a00dd9b2b764ca7a" kind="function"><name>Prepare</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1aa01fec0af544718e780252ff15a33239" kind="function"><name>AddIngredient</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory" kind="class"><name>PizzazzLibrary::Implementation::CustomPizzaFactory</name>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1adc49418de2796549d547b1d93dad612c" kind="property"><name>BasePizza</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a5135a5dfa3e88be7d2b803f75fa69061" kind="property"><name>DecoratedPizza</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a417478e3ae4e37fc7d271b5e0f0dbe4b" kind="property"><name>ExtraIngredients</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e" kind="function"><name>PreparePizza</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::Dough</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1a878635eb6c741cd1d66ab8f58cfb26a2" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1ab0c0186ee0e37304743cfe8b8ae1a501" kind="variable"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1a0edb655a7c6556c34ed13060c058fe20" kind="variable"><name>Price</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1aa46e1e58d296eeb1672bde1436d91a14" kind="variable"><name>CostPrice</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" kind="class"><name>PizzazzLibrary::Ingredients::Interfaces::Ingredient</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a9f1cdfd3843d6b1bb8dc31ec498e64a9" kind="property"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a1317ccf0ad3b0ea939d8ee992e15a3c9" kind="property"><name>CostPrice</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a52839439e3cf21af8ef8ef2ebeda16d5" kind="property"><name>Price</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1aa6f7426bd867bf7c486c490a616189fd" kind="property"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" kind="property"><name>Baked</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a7aaf3bd0d4d649aeb2488fa71c06982c" kind="function"><name>Bake</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a4b121a55ebf9066e948cbdfc5463c981" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory" kind="interface"><name>PizzazzLibrary::Interfaces::IPizzaFactory</name>
+    <member refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_1a20183671e617d58bac4f5b315b9a5289" kind="function"><name>PreparePizza</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kind="class"><name>PizzazzLibrary::Implementation::Pizza</name>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1ad2e06f7ead0687daa22ce0188f0a3507" kind="variable"><name>_ingredients</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a20da270959a5da228fa0a42206460731" kind="property"><name>IsPrepared</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a08f59b16c8da09dc4829e8ce4aea738b" kind="property"><name>IsCut</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1aa848c237cc13d5416a9d73c8814ab17f" kind="property"><name>IsBaked</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a17d89a34b2a8acc5f445620d876b238c" kind="property"><name>IsPackaged</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a02aa3125ade4fb1c7cbb1644e502863f" kind="variable"><name>Price</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a7cad763c3c7316616d512f5135d74a4b" kind="variable"><name>Ingredients</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a0e6b0fd72943131491313136b33a71c6" kind="function"><name>Prepare</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a5b1b0a742974af9c94be7f83dd18255a" kind="function"><name>Bake</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1aa9d60bb338ec02bff81239ed4a2faa4f" kind="function"><name>Cut</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a610c10d15ec0927c91be1de3bece2270" kind="function"><name>Package</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1aa4823088551ab83ce3616dc1bdbbcb25" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator" kind="class"><name>PizzazzLibrary::Implementation::PizzaDecorator</name>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator_1a44dbe6b583570be09dd3d3446c3d1723" kind="property"><name>decoratedPizza</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator_1a661f7b48b26288f94e7415e24dfe1dae" kind="function"><name>PizzaDecorator</name></member>
+  </compound>
+  <compound refid="class_pizzazz_1_1_pizza_delivery" kind="class"><name>Pizzazz::PizzaDelivery</name>
+    <member refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" kind="property"><name>factory</name></member>
+    <member refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" kind="function"><name>DeliverPizza</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita" kind="class"><name>PizzazzLibrary::Implementation::PizzaMargherita</name>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1aa0f246751ff269cc191a51b68015755e" kind="variable"><name>Price</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a399b147e9eaca29d52bc148f42eff7b9" kind="function"><name>PizzaMargherita</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1ac3740e6ea596a05c7579b7eefe803e2d" kind="function"><name>PizzaMargherita</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a6de40a745873ab341579335cf33711bf" kind="function"><name>Prepare</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory" kind="class"><name>PizzazzLibrary::Implementation::PizzaMargheritaFactory</name>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1a0413cbe588069172ea66d75d58835340" kind="variable"><name>instance</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" kind="property"><name>Instance</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1a5b2958806f40f2830a58257ba843aa20" kind="function"><name>PizzaMargheritaFactory</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1adbb3ddfe93d8c6cf6fa1b9a152d822f8" kind="function"><name>PizzaMargheritaFactory</name></member>
+    <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aec407cf7ac8bf57aa19efebb8a6f083c" kind="function"><name>PreparePizza</name></member>
+  </compound>
+  <compound refid="class_pizzazz_1_1_program" kind="class"><name>Pizzazz::Program</name>
+    <member refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" kind="function"><name>Main</name></member>
+    <member refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" kind="function"><name>GoedkopePizza</name></member>
+    <member refid="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" kind="function"><name>DurePizza</name></member>
+    <member refid="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" kind="function"><name>PizzaMargheritaMetSalami</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::Salami</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami_1addac3c346f464c6ca845f8a856988194" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami_1a0f7f03cf11f18d096e1eae4d232b2dfa" kind="variable"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami_1afc73a94cbf07055a058da623f53e5066" kind="variable"><name>CostPrice</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce_1af1e696e3f0c4f482f2ab21305b135bed" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce_1a94a13dd7906d949627e47f810e04bdfc" kind="variable"><name>Description</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::Tomato</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1af78343cd6789dc7f9806398e9ff46767" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1a88bd8966adaab7a51032344cb8649414" kind="variable"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1acde754afcecbbfe3a7cc8820d4dde4f1" kind="variable"><name>CostPrice</name></member>
+  </compound>
+  <compound refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce" kind="class"><name>PizzazzLibrary::Ingredients::Implementation::TomatoSauce</name>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce_1a3041e965800c3defde0855eca47331b4" kind="variable"><name>Name</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce_1a1b7fe8ae11a828c42db490d4aa40491a" kind="variable"><name>Description</name></member>
+    <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce_1aedc3d4d6e3a60b9dd83d9db484e7fb82" kind="variable"><name>CostPrice</name></member>
+  </compound>
+  <compound refid="namespace_pizzazz" kind="namespace"><name>Pizzazz</name>
+  </compound>
+  <compound refid="namespace_pizzazz_library" kind="namespace"><name>PizzazzLibrary</name>
+  </compound>
+  <compound refid="namespace_pizzazz_library_1_1_implementation" kind="namespace"><name>PizzazzLibrary::Implementation</name>
+  </compound>
+  <compound refid="namespace_pizzazz_library_1_1_ingredients" kind="namespace"><name>PizzazzLibrary::Ingredients</name>
+  </compound>
+  <compound refid="namespace_pizzazz_library_1_1_ingredients_1_1_implementation" kind="namespace"><name>PizzazzLibrary::Ingredients::Implementation</name>
+  </compound>
+  <compound refid="namespace_pizzazz_library_1_1_ingredients_1_1_interfaces" kind="namespace"><name>PizzazzLibrary::Ingredients::Interfaces</name>
+  </compound>
+  <compound refid="namespace_pizzazz_library_1_1_interfaces" kind="namespace"><name>PizzazzLibrary::Interfaces</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_delivery_8cs" kind="file"><name>Delivery.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_basic_ingredients_8cs" kind="file"><name>BasicIngredients.cs</name>
+  </compound>
+  <compound refid="_ingredient_8cs" kind="file"><name>Ingredient.cs</name>
+  </compound>
+  <compound refid="_debug_2netstandard2_80_2_pizzazz_library_8_assembly_info_8cs" kind="file"><name>PizzazzLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2netstandard2_80_2_pizzazz_library_8_assembly_info_8cs" kind="file"><name>PizzazzLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_custom_pizza_decorator_8cs" kind="file"><name>CustomPizzaDecorator.cs</name>
+  </compound>
+  <compound refid="_custom_pizza_factory_8cs" kind="file"><name>CustomPizzaFactory.cs</name>
+  </compound>
+  <compound refid="_pizza_8cs" kind="file"><name>Pizza.cs</name>
+  </compound>
+  <compound refid="_pizza_margherita_8cs" kind="file"><name>PizzaMargherita.cs</name>
+  </compound>
+  <compound refid="_pizza_margherita_factory_8cs" kind="file"><name>PizzaMargheritaFactory.cs</name>
+  </compound>
+  <compound refid="_i_pizza_factory_8cs" kind="file"><name>IPizzaFactory.cs</name>
+  </compound>
+  <compound refid="_pizza_decorator_8cs" kind="file"><name>PizzaDecorator.cs</name>
+  </compound>
+  <compound refid="dir_1025bf947286538048ec2b2d8063e6da" kind="dir"><name>PizzazzLibrary/obj/Debug</name>
+  </compound>
+  <compound refid="dir_d86ccbc09cf9762db257a04a12cab71f" kind="dir"><name>PizzazzLibrary/Ingredients/Implementation</name>
+  </compound>
+  <compound refid="dir_21b0fe0d0d62c8109358b06e1a681e89" kind="dir"><name>PizzazzLibrary/Pizza/Implementation</name>
+  </compound>
+  <compound refid="dir_5018ed509aa321e018fbf9e803bd3db0" kind="dir"><name>PizzazzLibrary/Ingredients</name>
+  </compound>
+  <compound refid="dir_1a3618a3ea7e66f9e02a920f6955dab5" kind="dir"><name>PizzazzLibrary/Ingredients/Interfaces</name>
+  </compound>
+  <compound refid="dir_67ccf7647267e0fbec2645cfc0b3624d" kind="dir"><name>PizzazzLibrary/Pizza/Interfaces</name>
+  </compound>
+  <compound refid="dir_c40224e92bed9799e466462844863adf" kind="dir"><name>PizzazzLibrary/obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_e0b21f8a88b849a5c0a488b0fa0e58b7" kind="dir"><name>PizzazzLibrary/obj/Release/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_56428dfeeddf0373373dd6ddab2c9c42" kind="dir"><name>PizzazzLibrary/obj</name>
+  </compound>
+  <compound refid="dir_f60ab7e9cd56a0aabc289b1320763586" kind="dir"><name>PizzazzLibrary/Pizza</name>
+  </compound>
+  <compound refid="dir_0cc4ed8f7e8bfaf61a065079a5407e8d" kind="dir"><name>Pizzazz</name>
+  </compound>
+  <compound refid="dir_585356e9eb5fc8da4f4830c50b743ec9" kind="dir"><name>PizzazzLibrary</name>
+  </compound>
+  <compound refid="dir_08343a6c94939c8a993f201983231edb" kind="dir"><name>Pizzazz/Properties</name>
+  </compound>
+  <compound refid="dir_cd425a9ba5a6c6ba4b0aae2f5720362a" kind="dir"><name>PizzazzLibrary/obj/Release</name>
+  </compound>
+</doxygenindex>

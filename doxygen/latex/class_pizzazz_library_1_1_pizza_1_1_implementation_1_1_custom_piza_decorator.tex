@@ -1,0 +1,166 @@
+\hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator}{}\doxysection{Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator Class Reference}
+\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator}\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+
+
+A customized pizza based on another pizza. The customer pays 10 cents extra on top each ingredient added! \$\+\_\+\$  
+
+
+
+
+Inheritance diagram for Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a4e86fb245a59a7e7a516991459ae2ccb}{Custom\+Piza\+Decorator}} (\mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza}{Pizza}} pizza\+To\+Decorate)
+\item 
+override void \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a7898a22016c0dfaaf092938cd7404d86}{Prepare}} ()
+\item 
+void \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_ab3961cddff42aa9cf978e2c6717a8508}{Add\+Ingredient}} (\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}} ingredient)
+\begin{DoxyCompactList}\small\item\em Defines extra ingredients that will be added to the pizza when it is prepared. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+override double \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a23da0a2f8e2eb9d58408a20c27193cb3}{Price}} =$>$ \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_a101046c36d43be9f6b2b534e242a2bf5}{Is\+Prepared}} ? base.\+Price + \+\_\+extra\+Ingredients.\+Sum(e=$>$e.\+Price) + \+\_\+extra\+Ingredients.\+Count$\ast$0.\+1 \+: \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a57373ee33703bd66a0f1c2f56647d066}{\+\_\+calculated\+Price}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}} $>$ \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}{\+\_\+extra\+Ingredients}} = new List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$()
+\item 
+double \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a57373ee33703bd66a0f1c2f56647d066}{\+\_\+calculated\+Price}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A customized pizza based on another pizza. The customer pays 10 cents extra on top each ingredient added! \$\+\_\+\$ 
+
+
+
+Definition at line 14 of file Custom\+Pizza\+Decorator.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a4e86fb245a59a7e7a516991459ae2ccb}\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a4e86fb245a59a7e7a516991459ae2ccb}} 
+\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}!CustomPizaDecorator@{CustomPizaDecorator}}
+\index{CustomPizaDecorator@{CustomPizaDecorator}!PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+\doxysubsubsection{\texorpdfstring{CustomPizaDecorator()}{CustomPizaDecorator()}}
+{\footnotesize\ttfamily Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator.\+Custom\+Piza\+Decorator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza}{Pizza}}}]{pizza\+To\+Decorate }\end{DoxyParamCaption})}
+
+
+
+Definition at line 21 of file Custom\+Pizza\+Decorator.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{21                                                           : base(pizzaToDecorate)}
+\DoxyCodeLine{22         \{}
+\DoxyCodeLine{23         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_ab3961cddff42aa9cf978e2c6717a8508}\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_ab3961cddff42aa9cf978e2c6717a8508}} 
+\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}!AddIngredient@{AddIngredient}}
+\index{AddIngredient@{AddIngredient}!PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+\doxysubsubsection{\texorpdfstring{AddIngredient()}{AddIngredient()}}
+{\footnotesize\ttfamily void Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator.\+Add\+Ingredient (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}}]{ingredient }\end{DoxyParamCaption})}
+
+
+
+Defines extra ingredients that will be added to the pizza when it is prepared. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ingredient} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file Custom\+Pizza\+Decorator.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{39         \{}
+\DoxyCodeLine{40             \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}{\_extraIngredients}}.Add(ingredient);}
+\DoxyCodeLine{41         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a7898a22016c0dfaaf092938cd7404d86}\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a7898a22016c0dfaaf092938cd7404d86}} 
+\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}!Prepare@{Prepare}}
+\index{Prepare@{Prepare}!PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+\doxysubsubsection{\texorpdfstring{Prepare()}{Prepare()}}
+{\footnotesize\ttfamily override void Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator.\+Prepare (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_ad7678a0f0a05084cbc746a15f5116afa}{Pizzazz\+Library.\+Pizza.\+Pizza}}.
+
+
+
+Definition at line 25 of file Custom\+Pizza\+Decorator.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{26         \{}
+\DoxyCodeLine{27             base.Prepare();}
+\DoxyCodeLine{28             \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a57373ee33703bd66a0f1c2f56647d066}{\_calculatedPrice}} = base.Price + \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}{\_extraIngredients}}.Sum(e => e.Price) + \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}{\_extraIngredients}}.Count * 0.1;}
+\DoxyCodeLine{29             base.\_ingredients.AddRange(\mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}{\_extraIngredients}});}
+\DoxyCodeLine{30         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a57373ee33703bd66a0f1c2f56647d066}\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a57373ee33703bd66a0f1c2f56647d066}} 
+\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}!\_calculatedPrice@{\_calculatedPrice}}
+\index{\_calculatedPrice@{\_calculatedPrice}!PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+\doxysubsubsection{\texorpdfstring{\_calculatedPrice}{\_calculatedPrice}}
+{\footnotesize\ttfamily double Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator.\+\_\+calculated\+Price\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 19 of file Custom\+Pizza\+Decorator.\+cs.
+
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a735212b71665ae305d06f27bef1a0a28}} 
+\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}!\_extraIngredients@{\_extraIngredients}}
+\index{\_extraIngredients@{\_extraIngredients}!PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+\doxysubsubsection{\texorpdfstring{\_extraIngredients}{\_extraIngredients}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$ Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator.\+\_\+extra\+Ingredients = new List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 16 of file Custom\+Pizza\+Decorator.\+cs.
+
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a23da0a2f8e2eb9d58408a20c27193cb3}\label{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a23da0a2f8e2eb9d58408a20c27193cb3}} 
+\index{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}!Price@{Price}}
+\index{Price@{Price}!PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator@{PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator}}
+\doxysubsubsection{\texorpdfstring{Price}{Price}}
+{\footnotesize\ttfamily override double Pizzazz\+Library.\+Pizza.\+Implementation.\+Custom\+Piza\+Decorator.\+Price =$>$ \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_a101046c36d43be9f6b2b534e242a2bf5}{Is\+Prepared}} ? base.\+Price + \+\_\+extra\+Ingredients.\+Sum(e=$>$e.\+Price) + \+\_\+extra\+Ingredients.\+Count$\ast$0.\+1 \+: \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_a57373ee33703bd66a0f1c2f56647d066}{\+\_\+calculated\+Price}}}
+
+
+
+Definition at line 32 of file Custom\+Pizza\+Decorator.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Pizzazz\+Library/\+Pizza/\+Implementation/\mbox{\hyperlink{_custom_pizza_decorator_8cs}{Custom\+Pizza\+Decorator.\+cs}}\end{DoxyCompactItemize}

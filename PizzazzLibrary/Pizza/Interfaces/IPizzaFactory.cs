@@ -1,13 +1,11 @@
 ﻿using System;
-using PizzazzLibrary.Pizza;
+using PizzazzLibrary.Implementation;
 
 
-namespace PizzazzLibrary.Pizza.Interfaces
+namespace PizzazzLibrary.Interfaces
 {
     public interface IPizzaFactory
     {
-
-        public Pizza CreatePizza();
-
+        Pizza PreparePizza();
     }
 }

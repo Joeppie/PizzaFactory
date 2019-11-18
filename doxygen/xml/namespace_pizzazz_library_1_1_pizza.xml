@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_pizzazz_library_1_1_pizza" kind="namespace" language="C#">
+    <compoundname>PizzazzLibrary::Pizza</compoundname>
+    <innerclass refid="class_pizzazz_library_1_1_pizza_1_1_pizza" prot="public">PizzazzLibrary::Pizza::Pizza</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery" prot="public">PizzazzLibrary::Pizza::PizzaDelivery</innerclass>
+    <innernamespace refid="namespace_pizzazz_library_1_1_pizza_1_1_implementation">PizzazzLibrary::Pizza::Implementation</innernamespace>
+    <innernamespace refid="namespace_pizzazz_library_1_1_pizza_1_1_interfaces">PizzazzLibrary::Pizza::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaDecorator.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

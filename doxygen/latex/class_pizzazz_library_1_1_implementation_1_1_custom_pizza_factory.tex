@@ -1,0 +1,140 @@
+\hypertarget{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory}{}\doxysection{Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory Class Reference}
+\label{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory}\index{PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}}
+
+
+Inheritance diagram for Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_acec1ebe7e287c1756b7d72c24ea2d45e}{Prepare\+Pizza}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_adc49418de2796549d547b1d93dad612c}{Base\+Pizza}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator}{Custom\+Piza\+Decorator}} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}{Decorated\+Pizza}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}} $>$ \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a417478e3ae4e37fc7d271b5e0f0dbe4b}{Extra\+Ingredients}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Custom\+Pizza\+Factory.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_acec1ebe7e287c1756b7d72c24ea2d45e}\label{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_acec1ebe7e287c1756b7d72c24ea2d45e}} 
+\index{PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}!PreparePizza@{PreparePizza}}
+\index{PreparePizza@{PreparePizza}!PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}}
+\doxysubsubsection{\texorpdfstring{PreparePizza()}{PreparePizza()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory.\+Prepare\+Pizza (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_a20183671e617d58bac4f5b315b9a5289}{Pizzazz\+Library.\+Interfaces.\+I\+Pizza\+Factory}}.
+
+
+
+Definition at line 18 of file Custom\+Pizza\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{19         \{}
+\DoxyCodeLine{20             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_adc49418de2796549d547b1d93dad612c}{BasePizza}} == \textcolor{keyword}{null}) \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_adc49418de2796549d547b1d93dad612c}{BasePizza}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}}(); \textcolor{comment}{//Didn't specify a pizza? Then start with one containing only dough.}}
+\DoxyCodeLine{21             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a417478e3ae4e37fc7d271b5e0f0dbe4b}{ExtraIngredients}} == \textcolor{keyword}{null}) \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a417478e3ae4e37fc7d271b5e0f0dbe4b}{ExtraIngredients}} = \textcolor{keyword}{new} List<Ingredient>();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}{DecoratedPizza}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator}{CustomPizaDecorator}}(\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_adc49418de2796549d547b1d93dad612c}{BasePizza}});}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25             \textcolor{keywordflow}{foreach} (var ingredient \textcolor{keywordflow}{in} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a417478e3ae4e37fc7d271b5e0f0dbe4b}{ExtraIngredients}})}
+\DoxyCodeLine{26             \{}
+\DoxyCodeLine{27                 \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}{DecoratedPizza}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_aa01fec0af544718e780252ff15a33239}{AddIngredient}}(ingredient);}
+\DoxyCodeLine{28             \}}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}{DecoratedPizza}}.\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_a5caa586e10fc3b86a00dd9b2b764ca7a}{Prepare}}();}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32             \textcolor{keywordflow}{return} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}{DecoratedPizza}};}
+\DoxyCodeLine{33         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_acec1ebe7e287c1756b7d72c24ea2d45e_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_adc49418de2796549d547b1d93dad612c}\label{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_adc49418de2796549d547b1d93dad612c}} 
+\index{PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}!BasePizza@{BasePizza}}
+\index{BasePizza@{BasePizza}!PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}}
+\doxysubsubsection{\texorpdfstring{BasePizza}{BasePizza}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza}{Pizza}} Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory.\+Base\+Pizza\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 13 of file Custom\+Pizza\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}\label{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a5135a5dfa3e88be7d2b803f75fa69061}} 
+\index{PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}!DecoratedPizza@{DecoratedPizza}}
+\index{DecoratedPizza@{DecoratedPizza}!PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}}
+\doxysubsubsection{\texorpdfstring{DecoratedPizza}{DecoratedPizza}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator}{Custom\+Piza\+Decorator}} Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory.\+Decorated\+Pizza\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}
+
+
+
+Definition at line 14 of file Custom\+Pizza\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a417478e3ae4e37fc7d271b5e0f0dbe4b}\label{class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_a417478e3ae4e37fc7d271b5e0f0dbe4b}} 
+\index{PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}!ExtraIngredients@{ExtraIngredients}}
+\index{ExtraIngredients@{ExtraIngredients}!PizzazzLibrary.Implementation.CustomPizzaFactory@{PizzazzLibrary.Implementation.CustomPizzaFactory}}
+\doxysubsubsection{\texorpdfstring{ExtraIngredients}{ExtraIngredients}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$ Pizzazz\+Library.\+Implementation.\+Custom\+Pizza\+Factory.\+Extra\+Ingredients\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 15 of file Custom\+Pizza\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Pizzazz\+Library/\+Pizza/\+Implementation/\mbox{\hyperlink{_custom_pizza_factory_8cs}{Custom\+Pizza\+Factory.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_cd425a9ba5a6c6ba4b0aae2f5720362a" kind="dir">
+    <compoundname>PizzazzLibrary/obj/Release</compoundname>
+    <innerdir refid="dir_e0b21f8a88b849a5c0a488b0fa0e58b7">PizzazzLibrary/obj/Release/netstandard2.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/obj/Release/"/>
+  </compounddef>
+</doxygen>

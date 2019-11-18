@@ -1,0 +1,5 @@
+<map id="Pizzazz.PizzaDelivery.DeliverPizza" name="Pizzazz.PizzaDelivery.DeliverPizza">
+<area shape="rect" id="node1" title="Delivers a pizza which is optionally cut." alt="" coords="5,39,199,80"/>
+<area shape="rect" id="node2" href="$class_pizzazz_library_1_1_implementation_1_1_pizza.html#a5b1b0a742974af9c94be7f83dd18255a" title=" " alt="" coords="247,5,451,47"/>
+<area shape="rect" id="node3" href="$interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory.html#a20183671e617d58bac4f5b315b9a5289" title=" " alt="" coords="257,71,441,112"/>
+</map>

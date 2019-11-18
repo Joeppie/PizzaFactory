@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_1_1_pizza_delivery" kind="class" language="C#" prot="public">
+    <compoundname>Pizzazz::PizzaDelivery</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory" kindref="compound">IPizzaFactory</ref></type>
+        <definition>IPizzaFactory Pizzazz.PizzaDelivery.factory</definition>
+        <argsstring></argsstring>
+        <name>factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pizzazz/Delivery.cs" line="12" column="30" bodyfile="Pizzazz/Delivery.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" compoundref="_delivery_8cs" startline="19" endline="32">Pizzazz.PizzaDelivery.DeliverPizza</referencedby>
+        <referencedby refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" compoundref="_program_8cs" startline="30" endline="40">Pizzazz.Program.GoedkopePizza</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza Pizzazz.PizzaDelivery.DeliverPizza</definition>
+        <argsstring>(bool cut=true)</argsstring>
+        <name>DeliverPizza</name>
+        <param>
+          <type>bool</type>
+          <declname>cut</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Delivers a pizza which is optionally cut. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cut</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pizzazz/Delivery.cs" line="19" column="22" bodyfile="Pizzazz/Delivery.cs" bodystart="19" bodyend="32"/>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a5b1b0a742974af9c94be7f83dd18255a" compoundref="_pizza_8cs" startline="48" endline="55">PizzazzLibrary.Implementation.Pizza.Bake</references>
+        <references refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" compoundref="_delivery_8cs" startline="12" endline="12">Pizzazz.PizzaDelivery.factory</references>
+        <references refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_1a20183671e617d58bac4f5b315b9a5289">PizzazzLibrary.Interfaces.IPizzaFactory.PreparePizza</references>
+        <referencedby refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" compoundref="_program_8cs" startline="30" endline="40">Pizzazz.Program.GoedkopePizza</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Someone who makes pizzas. The secret of this cook is that he uses a factory to do the hard work. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pizzazz.PizzaDelivery</label>
+        <link refid="class_pizzazz_1_1_pizza_delivery"/>
+      </node>
+    </collaborationgraph>
+    <location file="Pizzazz/Delivery.cs" line="11" column="1" bodyfile="Pizzazz/Delivery.cs" bodystart="10" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" prot="public" virt="non-virtual"><scope>Pizzazz::PizzaDelivery</scope><name>DeliverPizza</name></member>
+      <member refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" prot="public" virt="non-virtual"><scope>Pizzazz::PizzaDelivery</scope><name>factory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

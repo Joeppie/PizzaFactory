@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_pizza_1_1_pizza" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Pizza::Pizza</compoundname>
+    <derivedcompoundref refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Interfaces.PizzaDecorator</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a448983be870dca7f0765b9b55cea1556" prot="protected" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" kindref="compound">Ingredient</ref> &gt;</type>
+        <definition>List&lt;Ingredient&gt; PizzazzLibrary.Pizza.Pizza._ingredients</definition>
+        <argsstring></argsstring>
+        <name>_ingredients</name>
+        <initializer>= new List&lt;<ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" kindref="compound">Ingredient</ref>&gt;()</initializer>
+        <briefdescription>
+<para>The list of ingredients which can be modified by inheritors. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="20" column="24" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ad7678a0f0a05084cbc746a15f5116afa" compoundref="_pizza_8cs" startline="38" endline="46">PizzazzLibrary.Pizza.Pizza.Prepare</referencedby>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a633cf9558cba420e1d417a71995f00df" compoundref="_pizza_8cs" startline="48" endline="55">PizzazzLibrary.Pizza.Pizza.Bake</referencedby>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita_1abc0e239684ec6e400c45137051877994" compoundref="_pizza_margherita_8cs" startline="15" endline="21">PizzazzLibrary.Pizza.Implementation.PizzaMargherita.Prepare</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a101046c36d43be9f6b2b534e242a2bf5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PizzazzLibrary.Pizza.Pizza.IsPrepared</definition>
+        <argsstring></argsstring>
+        <name>IsPrepared</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="22" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="22" bodyend="22"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ad7678a0f0a05084cbc746a15f5116afa" compoundref="_pizza_8cs" startline="38" endline="46">PizzazzLibrary.Pizza.Pizza.Prepare</referencedby>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" compoundref="_pizza_8cs" startline="71" endline="84">PizzazzLibrary.Pizza.Pizza.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1accf17107c1559ed703c0ac1760ad4bfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PizzazzLibrary.Pizza.Pizza.IsCut</definition>
+        <argsstring></argsstring>
+        <name>IsCut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="23" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="23" bodyend="23"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1aec93f0b2b29acb4144d96bf88e49615b" compoundref="_pizza_8cs" startline="57" endline="60">PizzazzLibrary.Pizza.Pizza.Cut</referencedby>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" compoundref="_pizza_8cs" startline="71" endline="84">PizzazzLibrary.Pizza.Pizza.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a39bd74f62d80def07601cb2aea8c9637" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PizzazzLibrary.Pizza.Pizza.IsBaked</definition>
+        <argsstring></argsstring>
+        <name>IsBaked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="24" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="24" bodyend="24"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a633cf9558cba420e1d417a71995f00df" compoundref="_pizza_8cs" startline="48" endline="55">PizzazzLibrary.Pizza.Pizza.Bake</referencedby>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" compoundref="_pizza_8cs" startline="71" endline="84">PizzazzLibrary.Pizza.Pizza.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1acf01642f586961a006f90bc77a143008" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PizzazzLibrary.Pizza.Pizza.IsPackaged</definition>
+        <argsstring></argsstring>
+        <name>IsPackaged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="25" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="25" bodyend="25"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a25b1c46a6cd85c32aba855c41a0a5a0a" compoundref="_pizza_8cs" startline="62" endline="65">PizzazzLibrary.Pizza.Pizza.Package</referencedby>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" compoundref="_pizza_8cs" startline="71" endline="84">PizzazzLibrary.Pizza.Pizza.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a52a0017b61c23d0e929fe098535df7b8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>virtual double PizzazzLibrary.Pizza.Pizza.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <initializer>=&gt; Ingredients.Sum(i=&gt;i.Price)</initializer>
+        <briefdescription>
+<para>Gets the price of the pizza. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="30" column="31" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a77ea98edaf5e1feeab4a29d921d9722f" prot="public" static="no" mutable="no">
+        <type>IEnumerable&lt; <ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" kindref="compound">Ingredient</ref> &gt;</type>
+        <definition>IEnumerable&lt;Ingredient&gt; PizzazzLibrary.Pizza.Pizza.Ingredients</definition>
+        <argsstring></argsstring>
+        <name>Ingredients</name>
+        <initializer>=&gt; _ingredients.ToList()</initializer>
+        <briefdescription>
+<para>The ingredients the pizza has. Creates a duplicate list. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="35" column="28" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" compoundref="_pizza_8cs" startline="71" endline="84">PizzazzLibrary.Pizza.Pizza.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1ad7678a0f0a05084cbc746a15f5116afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void PizzazzLibrary.Pizza.Pizza.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <reimplementedby refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita_1abc0e239684ec6e400c45137051877994">Prepare</reimplementedby>
+        <reimplementedby refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator_1a7898a22016c0dfaaf092938cd7404d86">Prepare</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="38" column="29" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="38" bodyend="46"/>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a448983be870dca7f0765b9b55cea1556" compoundref="_pizza_8cs" startline="20">PizzazzLibrary.Pizza.Pizza._ingredients</references>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a101046c36d43be9f6b2b534e242a2bf5" compoundref="_pizza_8cs" startline="22" endline="22">PizzazzLibrary.Pizza.Pizza.IsPrepared</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a633cf9558cba420e1d417a71995f00df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PizzazzLibrary.Pizza.Pizza.Bake</definition>
+        <argsstring>()</argsstring>
+        <name>Bake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="48" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="48" bodyend="55"/>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a448983be870dca7f0765b9b55cea1556" compoundref="_pizza_8cs" startline="20">PizzazzLibrary.Pizza.Pizza._ingredients</references>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a39bd74f62d80def07601cb2aea8c9637" compoundref="_pizza_8cs" startline="24" endline="24">PizzazzLibrary.Pizza.Pizza.IsBaked</references>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_1ad9d2518b6e46fa4dd49354847c00e146" compoundref="_pizza_delivery_8cs" startline="21" endline="34">PizzazzLibrary.Pizza.PizzaDelivery.DeliverPizza</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1aec93f0b2b29acb4144d96bf88e49615b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PizzazzLibrary.Pizza.Pizza.Cut</definition>
+        <argsstring>()</argsstring>
+        <name>Cut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="57" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="57" bodyend="60"/>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1accf17107c1559ed703c0ac1760ad4bfe" compoundref="_pizza_8cs" startline="23" endline="23">PizzazzLibrary.Pizza.Pizza.IsCut</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1a25b1c46a6cd85c32aba855c41a0a5a0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PizzazzLibrary.Pizza.Pizza.Package</definition>
+        <argsstring>()</argsstring>
+        <name>Package</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="62" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="62" bodyend="65"/>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1acf01642f586961a006f90bc77a143008" compoundref="_pizza_8cs" startline="25" endline="25">PizzazzLibrary.Pizza.Pizza.IsPackaged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Pizza.Pizza.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Provide a culinary description of the pizza. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="71" column="32" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="71" bodyend="84"/>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a77ea98edaf5e1feeab4a29d921d9722f" compoundref="_pizza_8cs" startline="35">PizzazzLibrary.Pizza.Pizza.Ingredients</references>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a39bd74f62d80def07601cb2aea8c9637" compoundref="_pizza_8cs" startline="24" endline="24">PizzazzLibrary.Pizza.Pizza.IsBaked</references>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1accf17107c1559ed703c0ac1760ad4bfe" compoundref="_pizza_8cs" startline="23" endline="23">PizzazzLibrary.Pizza.Pizza.IsCut</references>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1acf01642f586961a006f90bc77a143008" compoundref="_pizza_8cs" startline="25" endline="25">PizzazzLibrary.Pizza.Pizza.IsPackaged</references>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a101046c36d43be9f6b2b534e242a2bf5" compoundref="_pizza_8cs" startline="22" endline="22">PizzazzLibrary.Pizza.Pizza.IsPrepared</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A generic pizza </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>PizzazzLibrary.Pizza.Implementation.PizzaMargherita</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PizzazzLibrary.Pizza.Interfaces.PizzaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Pizza</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_pizza"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Pizza</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_pizza"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Implementation/Pizza.cs" line="15" column="1" bodyfile="PizzazzLibrary/Pizza/Implementation/Pizza.cs" bodystart="14" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a448983be870dca7f0765b9b55cea1556" prot="protected" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>_ingredients</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a633cf9558cba420e1d417a71995f00df" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1aec93f0b2b29acb4144d96bf88e49615b" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>Cut</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a77ea98edaf5e1feeab4a29d921d9722f" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>Ingredients</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a39bd74f62d80def07601cb2aea8c9637" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>IsBaked</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1accf17107c1559ed703c0ac1760ad4bfe" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>IsCut</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1acf01642f586961a006f90bc77a143008" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>IsPackaged</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a101046c36d43be9f6b2b534e242a2bf5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>IsPrepared</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a25b1c46a6cd85c32aba855c41a0a5a0a" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>Package</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ad7678a0f0a05084cbc746a15f5116afa" prot="public" virt="virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>Prepare</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a52a0017b61c23d0e929fe098535df7b8" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Pizza</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

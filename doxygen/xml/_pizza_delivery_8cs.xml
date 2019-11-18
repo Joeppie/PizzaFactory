@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_pizza_delivery_8cs" kind="file" language="C#">
+    <compoundname>PizzaDelivery.cs</compoundname>
+    <innerclass refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery" prot="public">PizzazzLibrary::Pizza::PizzaDelivery</innerclass>
+    <innernamespace refid="namespace_pizzazz_library">PizzazzLibrary</innernamespace>
+    <innernamespace refid="namespace_pizzazz_library_1_1_pizza">PizzazzLibrary::Pizza</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_pizza" kindref="compound">Pizza</ref>.<ref refid="namespace_pizzazz_library_1_1_pizza_1_1_interfaces" kindref="compound">Interfaces</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pizzazz_library_1_1_pizza" kindref="compound">PizzazzLibrary.Pizza</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery" kindref="compound">PizzaDelivery</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_1a0718a0d5efdb8b274788f8fe5bb2f300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory" kindref="compound">IPizzaFactory</ref><sp/><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_1a0718a0d5efdb8b274788f8fe5bb2f300" kindref="member">factory</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_1ad9d2518b6e46fa4dd49354847c00e146" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza" kindref="compound">Pizza</ref><sp/><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_1ad9d2518b6e46fa4dd49354847c00e146" kindref="member">DeliverPizza</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cut<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>pizza<sp/>=<sp/><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_1a0718a0d5efdb8b274788f8fe5bb2f300" kindref="member">factory</ref>.<ref refid="interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory_1a6ff9684bfd21e5c83a139a47e212d0d8" kindref="member">PreparePizza</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pizza.<ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a633cf9558cba420e1d417a71995f00df" kindref="member">Bake</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cut)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pizza.Cut();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pizza.Package();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pizza;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PizzazzLibrary/Pizza/PizzaDelivery.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+\hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza}{}\doxysection{Pizzazz\+Library.\+Implementation.\+Pizza Class Reference}
+\label{class_pizzazz_library_1_1_implementation_1_1_pizza}\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+
+
+A generic pizza  
+
+
+
+
+Inheritance diagram for Pizzazz\+Library.\+Implementation.\+Pizza\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_library_1_1_implementation_1_1_pizza__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pizzazz\+Library.\+Implementation.\+Pizza\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{class_pizzazz_library_1_1_implementation_1_1_pizza__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a0e6b0fd72943131491313136b33a71c6}{Prepare}} ()
+\item 
+void \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a5b1b0a742974af9c94be7f83dd18255a}{Bake}} ()
+\item 
+void \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_aa9d60bb338ec02bff81239ed4a2faa4f}{Cut}} ()
+\item 
+void \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a610c10d15ec0927c91be1de3bece2270}{Package}} ()
+\item 
+override string \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_aa4823088551ab83ce3616dc1bdbbcb25}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Provide a culinary description of the pizza. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a02aa3125ade4fb1c7cbb1644e502863f}{Price}} =$>$ Ingredients.\+Sum(i=$>$i.\+Price)
+\begin{DoxyCompactList}\small\item\em Gets the price of the pizza. \end{DoxyCompactList}\item 
+I\+Enumerable$<$ \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}} $>$ \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a7cad763c3c7316616d512f5135d74a4b}{Ingredients}} =$>$ \+\_\+ingredients.\+To\+List()
+\begin{DoxyCompactList}\small\item\em The ingredients the pizza has. Creates a duplicate list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}} $>$ \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_ad2e06f7ead0687daa22ce0188f0a3507}{\+\_\+ingredients}} = new List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$()
+\begin{DoxyCompactList}\small\item\em The list of ingredients which can be modified by inheritors. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a20da270959a5da228fa0a42206460731}{Is\+Prepared}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a08f59b16c8da09dc4829e8ce4aea738b}{Is\+Cut}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_aa848c237cc13d5416a9d73c8814ab17f}{Is\+Baked}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a17d89a34b2a8acc5f445620d876b238c}{Is\+Packaged}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A generic pizza 
+
+
+
+Definition at line 14 of file Pizza.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a5b1b0a742974af9c94be7f83dd18255a}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a5b1b0a742974af9c94be7f83dd18255a}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!Bake@{Bake}}
+\index{Bake@{Bake}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{Bake()}{Bake()}}
+{\footnotesize\ttfamily void Pizzazz\+Library.\+Implementation.\+Pizza.\+Bake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 48 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{49         \{}
+\DoxyCodeLine{50             \textcolor{keywordflow}{foreach} (var ingredient \textcolor{keywordflow}{in} \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_ad2e06f7ead0687daa22ce0188f0a3507}{\_ingredients}})}
+\DoxyCodeLine{51             \{}
+\DoxyCodeLine{52                 ingredient.Bake();}
+\DoxyCodeLine{53             \}}
+\DoxyCodeLine{54             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_aa848c237cc13d5416a9d73c8814ab17f}{IsBaked}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{55         \}}
+
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_library_1_1_implementation_1_1_pizza_a5b1b0a742974af9c94be7f83dd18255a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_aa9d60bb338ec02bff81239ed4a2faa4f}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_aa9d60bb338ec02bff81239ed4a2faa4f}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!Cut@{Cut}}
+\index{Cut@{Cut}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{Cut()}{Cut()}}
+{\footnotesize\ttfamily void Pizzazz\+Library.\+Implementation.\+Pizza.\+Cut (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 57 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58         \{}
+\DoxyCodeLine{59             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a08f59b16c8da09dc4829e8ce4aea738b}{IsCut}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{60         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a610c10d15ec0927c91be1de3bece2270}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a610c10d15ec0927c91be1de3bece2270}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!Package@{Package}}
+\index{Package@{Package}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{Package()}{Package()}}
+{\footnotesize\ttfamily void Pizzazz\+Library.\+Implementation.\+Pizza.\+Package (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 62 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{63         \{}
+\DoxyCodeLine{64             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a17d89a34b2a8acc5f445620d876b238c}{IsPackaged}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{65         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a0e6b0fd72943131491313136b33a71c6}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a0e6b0fd72943131491313136b33a71c6}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!Prepare@{Prepare}}
+\index{Prepare@{Prepare}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{Prepare()}{Prepare()}}
+{\footnotesize\ttfamily virtual void Pizzazz\+Library.\+Implementation.\+Pizza.\+Prepare (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_a5caa586e10fc3b86a00dd9b2b764ca7a}{Pizzazz\+Library.\+Implementation.\+Custom\+Piza\+Decorator}}, and \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_a6de40a745873ab341579335cf33711bf}{Pizzazz\+Library.\+Implementation.\+Pizza\+Margherita}}.
+
+
+
+Definition at line 38 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{39         \{}
+\DoxyCodeLine{40             \textcolor{keywordflow}{if}(\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a20da270959a5da228fa0a42206460731}{IsPrepared}})}
+\DoxyCodeLine{41             \{}
+\DoxyCodeLine{42                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} InvalidOperationException(\textcolor{stringliteral}{"Cannot prepare the same pizza twice"});}
+\DoxyCodeLine{43             \}}
+\DoxyCodeLine{44             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_ad2e06f7ead0687daa22ce0188f0a3507}{\_ingredients}}.Add(\textcolor{keyword}{new} \mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough}{Dough}}());}
+\DoxyCodeLine{45             \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a20da270959a5da228fa0a42206460731}{IsPrepared}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{46         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_aa4823088551ab83ce3616dc1bdbbcb25}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_aa4823088551ab83ce3616dc1bdbbcb25}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!ToString@{ToString}}
+\index{ToString@{ToString}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Pizzazz\+Library.\+Implementation.\+Pizza.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Provide a culinary description of the pizza. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 71 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{72         \{}
+\DoxyCodeLine{73             List<string> descriptions = \textcolor{keyword}{new} List<string>();}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a20da270959a5da228fa0a42206460731}{IsPrepared}}) descriptions.Add(\textcolor{stringliteral}{"fully prepared"});}
+\DoxyCodeLine{76             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_aa848c237cc13d5416a9d73c8814ab17f}{IsBaked}}) descriptions.Add(\textcolor{stringliteral}{"freshly Baked"});}
+\DoxyCodeLine{77             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a08f59b16c8da09dc4829e8ce4aea738b}{IsCut}}) descriptions.Add(\textcolor{stringliteral}{"neatly cut"});}
+\DoxyCodeLine{78             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a17d89a34b2a8acc5f445620d876b238c}{IsPackaged}}) descriptions.Add(\textcolor{stringliteral}{"delicately packaged"});}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80            \textcolor{keywordtype}{string} description = String.Join(\textcolor{stringliteral}{", "}, descriptions);}
+\DoxyCodeLine{81            \textcolor{keywordtype}{string} ingredients = String.Join(\textcolor{stringliteral}{", "}, \mbox{\hyperlink{class_pizzazz_library_1_1_implementation_1_1_pizza_a7cad763c3c7316616d512f5135d74a4b}{Ingredients}});}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{83             \textcolor{keywordflow}{return} \$\textcolor{stringliteral}{"A \{description\} pizza with \{ingredients\} for just \$\{Price\}."};}
+\DoxyCodeLine{84         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_ad2e06f7ead0687daa22ce0188f0a3507}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_ad2e06f7ead0687daa22ce0188f0a3507}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!\_ingredients@{\_ingredients}}
+\index{\_ingredients@{\_ingredients}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{\_ingredients}{\_ingredients}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$ Pizzazz\+Library.\+Implementation.\+Pizza.\+\_\+ingredients = new List$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The list of ingredients which can be modified by inheritors. 
+
+
+
+Definition at line 20 of file Pizza.\+cs.
+
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a7cad763c3c7316616d512f5135d74a4b}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a7cad763c3c7316616d512f5135d74a4b}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!Ingredients@{Ingredients}}
+\index{Ingredients@{Ingredients}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{Ingredients}{Ingredients}}
+{\footnotesize\ttfamily I\+Enumerable$<$\mbox{\hyperlink{class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient}{Ingredient}}$>$ Pizzazz\+Library.\+Implementation.\+Pizza.\+Ingredients =$>$ \+\_\+ingredients.\+To\+List()}
+
+
+
+The ingredients the pizza has. Creates a duplicate list. 
+
+
+
+Definition at line 35 of file Pizza.\+cs.
+
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a02aa3125ade4fb1c7cbb1644e502863f}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a02aa3125ade4fb1c7cbb1644e502863f}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!Price@{Price}}
+\index{Price@{Price}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{Price}{Price}}
+{\footnotesize\ttfamily virtual double Pizzazz\+Library.\+Implementation.\+Pizza.\+Price =$>$ Ingredients.\+Sum(i=$>$i.\+Price)}
+
+
+
+Gets the price of the pizza. 
+
+
+
+Definition at line 30 of file Pizza.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_aa848c237cc13d5416a9d73c8814ab17f}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_aa848c237cc13d5416a9d73c8814ab17f}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!IsBaked@{IsBaked}}
+\index{IsBaked@{IsBaked}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{IsBaked}{IsBaked}}
+{\footnotesize\ttfamily bool Pizzazz\+Library.\+Implementation.\+Pizza.\+Is\+Baked\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+Definition at line 24 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{24 \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a08f59b16c8da09dc4829e8ce4aea738b}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a08f59b16c8da09dc4829e8ce4aea738b}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!IsCut@{IsCut}}
+\index{IsCut@{IsCut}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{IsCut}{IsCut}}
+{\footnotesize\ttfamily bool Pizzazz\+Library.\+Implementation.\+Pizza.\+Is\+Cut\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+Definition at line 23 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23 \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a17d89a34b2a8acc5f445620d876b238c}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a17d89a34b2a8acc5f445620d876b238c}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!IsPackaged@{IsPackaged}}
+\index{IsPackaged@{IsPackaged}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{IsPackaged}{IsPackaged}}
+{\footnotesize\ttfamily bool Pizzazz\+Library.\+Implementation.\+Pizza.\+Is\+Packaged\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+Definition at line 25 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25 \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_implementation_1_1_pizza_a20da270959a5da228fa0a42206460731}\label{class_pizzazz_library_1_1_implementation_1_1_pizza_a20da270959a5da228fa0a42206460731}} 
+\index{PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}!IsPrepared@{IsPrepared}}
+\index{IsPrepared@{IsPrepared}!PizzazzLibrary.Implementation.Pizza@{PizzazzLibrary.Implementation.Pizza}}
+\doxysubsubsection{\texorpdfstring{IsPrepared}{IsPrepared}}
+{\footnotesize\ttfamily bool Pizzazz\+Library.\+Implementation.\+Pizza.\+Is\+Prepared\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+Definition at line 22 of file Pizza.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22 \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Pizzazz\+Library/\+Pizza/\+Implementation/\mbox{\hyperlink{_pizza_8cs}{Pizza.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_pizza_margherita_8cs" kind="file" language="C#">
+    <compoundname>PizzaMargherita.cs</compoundname>
+    <innerclass refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita" prot="public">PizzazzLibrary::Implementation::PizzaMargherita</innerclass>
+    <innernamespace refid="namespace_pizzazz_library">PizzazzLibrary</innernamespace>
+    <innernamespace refid="namespace_pizzazz_library_1_1_implementation">PizzazzLibrary::Implementation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_ingredients" kindref="compound">Ingredients</ref>.<ref refid="namespace_pizzazz_library_1_1_ingredients_1_1_implementation" kindref="compound">Implementation</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_interfaces" kindref="compound">Interfaces</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pizzazz_library_1_1_implementation" kindref="compound">PizzazzLibrary.Implementation</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita" kindref="compound">PizzaMargherita</ref><sp/>:<sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator" kindref="compound">PizzaDecorator</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a399b147e9eaca29d52bc148f42eff7b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a399b147e9eaca29d52bc148f42eff7b9" kindref="member">PizzaMargherita</ref>()<sp/>:<sp/>base(new<sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref>())<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1ac3740e6ea596a05c7579b7eefe803e2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1ac3740e6ea596a05c7579b7eefe803e2d" kindref="member">PizzaMargherita</ref>(<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref><sp/>pizzaToDecorate)<sp/>:<sp/>base(pizzaToDecorate)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a6de40a745873ab341579335cf33711bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a6de40a745873ab341579335cf33711bf" kindref="member">Prepare</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.Prepare();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1ad2e06f7ead0687daa22ce0188f0a3507" kindref="member">_ingredients</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce" kindref="compound">TomatoSauce</ref>());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1ad2e06f7ead0687daa22ce0188f0a3507" kindref="member">_ingredients</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese" kindref="compound">Cheese</ref>());</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1ad2e06f7ead0687daa22ce0188f0a3507" kindref="member">_ingredients</ref>.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil" kindref="compound">Basil</ref>());</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1aa0f246751ff269cc191a51b68015755e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1aa0f246751ff269cc191a51b68015755e" kindref="member">Price</ref><sp/>=&gt;<sp/>base.Price<sp/>*<sp/>0.80;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs"/>
+  </compounddef>
+</doxygen>

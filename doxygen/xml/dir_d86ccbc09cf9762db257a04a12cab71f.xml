@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_d86ccbc09cf9762db257a04a12cab71f" kind="dir">
+    <compoundname>PizzazzLibrary/Ingredients/Implementation</compoundname>
+    <innerfile refid="_basic_ingredients_8cs">BasicIngredients.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/Ingredients/Implementation/"/>
+  </compounddef>
+</doxygen>

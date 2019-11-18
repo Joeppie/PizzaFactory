@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Ingredients::Implementation::Dough</compoundname>
+    <basecompoundref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" prot="public" virt="non-virtual">PizzazzLibrary.Ingredients.Interfaces.Ingredient</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1a878635eb6c741cd1d66ab8f58cfb26a2" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.Dough.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>=&gt; &quot;Pizza <ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough" kindref="compound">Dough</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="10" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1ab0c0186ee0e37304743cfe8b8ae1a501" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.Dough.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>=&gt; (<ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" kindref="member">Baked</ref> ? &quot;Crusty Pizza <ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough" kindref="compound">Dough</ref>&quot; : &quot;Raw dough&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="11" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1a0edb655a7c6556c34ed13060c058fe20" prot="public" static="no" mutable="no">
+        <type>override double</type>
+        <definition>override double PizzazzLibrary.Ingredients.Implementation.Dough.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <initializer>=&gt; <ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1aa46e1e58d296eeb1672bde1436d91a14" kindref="member">CostPrice</ref> + 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="12" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1aa46e1e58d296eeb1672bde1436d91a14" prot="public" static="no" mutable="no">
+        <type>override double</type>
+        <definition>override double PizzazzLibrary.Ingredients.Implementation.Dough.CostPrice</definition>
+        <argsstring></argsstring>
+        <name>CostPrice</name>
+        <initializer>=&gt; 0.15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="13" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.Dough</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.Dough</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="9" column="1" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a7aaf3bd0d4d649aeb2488fa71c06982c" prot="package" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>Baked</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1aa46e1e58d296eeb1672bde1436d91a14" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>CostPrice</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1ab0c0186ee0e37304743cfe8b8ae1a501" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>Description</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1a878635eb6c741cd1d66ab8f58cfb26a2" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>Name</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough_1a0edb655a7c6556c34ed13060c058fe20" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a4b121a55ebf9066e948cbdfc5463c981" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Dough</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

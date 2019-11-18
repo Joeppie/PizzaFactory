@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_pizzazz_library_1_1_ingredients_1_1_implementation" kind="namespace" language="C#">
+    <compoundname>PizzazzLibrary::Ingredients::Implementation</compoundname>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil" prot="public">PizzazzLibrary::Ingredients::Implementation::Basil</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese" prot="public">PizzazzLibrary::Ingredients::Implementation::Cheese</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough" prot="public">PizzazzLibrary::Ingredients::Implementation::Dough</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami" prot="public">PizzazzLibrary::Ingredients::Implementation::Salami</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce" prot="public">PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato" prot="public">PizzazzLibrary::Ingredients::Implementation::Tomato</innerclass>
+    <innerclass refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce" prot="public">PizzazzLibrary::Ingredients::Implementation::TomatoSauce</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

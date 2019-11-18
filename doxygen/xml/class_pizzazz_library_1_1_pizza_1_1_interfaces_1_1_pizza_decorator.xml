@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</compoundname>
+    <basecompoundref refid="class_pizzazz_library_1_1_pizza_1_1_pizza" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Pizza</basecompoundref>
+    <derivedcompoundref refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator</derivedcompoundref>
+    <derivedcompoundref refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita" prot="public" virt="non-virtual">PizzazzLibrary.Pizza.Implementation.PizzaMargherita</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator_1ac48733e6154218d59c8e147623674b2d" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza PizzazzLibrary.Pizza.Interfaces.PizzaDecorator.decoratedPizza</definition>
+        <argsstring></argsstring>
+        <name>decoratedPizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Interfaces/PizzaDecorator.cs" line="9" column="25" bodyfile="PizzazzLibrary/Pizza/Interfaces/PizzaDecorator.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator_1a10da652d56d042089ae963e501e3bc46" compoundref="_pizza_decorator_8cs" startline="11" endline="14">PizzazzLibrary.Pizza.Interfaces.PizzaDecorator.PizzaDecorator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator_1a10da652d56d042089ae963e501e3bc46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PizzazzLibrary.Pizza.Interfaces.PizzaDecorator.PizzaDecorator</definition>
+        <argsstring>(Pizza pizzaToDecorate)</argsstring>
+        <name>PizzaDecorator</name>
+        <param>
+          <type><ref refid="class_pizzazz_library_1_1_pizza_1_1_pizza" kindref="compound">Pizza</ref></type>
+          <declname>pizzaToDecorate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Interfaces/PizzaDecorator.cs" line="11" column="16" bodyfile="PizzazzLibrary/Pizza/Interfaces/PizzaDecorator.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator_1ac48733e6154218d59c8e147623674b2d" compoundref="_pizza_decorator_8cs" startline="9" endline="9">PizzazzLibrary.Pizza.Interfaces.PizzaDecorator.decoratedPizza</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>PizzazzLibrary.Pizza.Implementation.PizzaMargherita</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pizza</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_pizza"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Interfaces.PizzaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PizzazzLibrary.Pizza.Implementation.CustomPizaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_piza_decorator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Pizza</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_pizza"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Pizza.Interfaces.PizzaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Interfaces/PizzaDecorator.cs" line="8" column="1" bodyfile="PizzazzLibrary/Pizza/Interfaces/PizzaDecorator.cs" bodystart="7" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a448983be870dca7f0765b9b55cea1556" prot="protected" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>_ingredients</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a633cf9558cba420e1d417a71995f00df" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1aec93f0b2b29acb4144d96bf88e49615b" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>Cut</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator_1ac48733e6154218d59c8e147623674b2d" prot="protected" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>decoratedPizza</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a77ea98edaf5e1feeab4a29d921d9722f" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>Ingredients</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a39bd74f62d80def07601cb2aea8c9637" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>IsBaked</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1accf17107c1559ed703c0ac1760ad4bfe" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>IsCut</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1acf01642f586961a006f90bc77a143008" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>IsPackaged</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a101046c36d43be9f6b2b534e242a2bf5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>IsPrepared</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a25b1c46a6cd85c32aba855c41a0a5a0a" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>Package</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_pizza_decorator_1a10da652d56d042089ae963e501e3bc46" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>PizzaDecorator</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ad7678a0f0a05084cbc746a15f5116afa" prot="public" virt="virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>Prepare</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1a52a0017b61c23d0e929fe098535df7b8" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_pizza_1_1_pizza_1ae6378d390bc575293728819d9010242f" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Pizza::Interfaces::PizzaDecorator</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

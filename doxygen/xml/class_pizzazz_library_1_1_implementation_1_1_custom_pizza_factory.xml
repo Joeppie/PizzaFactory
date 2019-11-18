@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Implementation::CustomPizzaFactory</compoundname>
+    <basecompoundref refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory" prot="public" virt="non-virtual">PizzazzLibrary.Interfaces.IPizzaFactory</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1adc49418de2796549d547b1d93dad612c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza PizzazzLibrary.Implementation.CustomPizzaFactory.BasePizza</definition>
+        <argsstring></argsstring>
+        <name>BasePizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="13" column="22" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="13" bodyend="13"/>
+        <referencedby refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e" compoundref="_custom_pizza_factory_8cs" startline="18" endline="33">PizzazzLibrary.Implementation.CustomPizzaFactory.PreparePizza</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a5135a5dfa3e88be7d2b803f75fa69061" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator" kindref="compound">CustomPizaDecorator</ref></type>
+        <definition>CustomPizaDecorator PizzazzLibrary.Implementation.CustomPizzaFactory.DecoratedPizza</definition>
+        <argsstring></argsstring>
+        <name>DecoratedPizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="14" column="37" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="14" bodyend="14"/>
+        <referencedby refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e" compoundref="_custom_pizza_factory_8cs" startline="18" endline="33">PizzazzLibrary.Implementation.CustomPizzaFactory.PreparePizza</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a417478e3ae4e37fc7d271b5e0f0dbe4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" kindref="compound">Ingredient</ref> &gt;</type>
+        <definition>List&lt;Ingredient&gt; PizzazzLibrary.Implementation.CustomPizzaFactory.ExtraIngredients</definition>
+        <argsstring></argsstring>
+        <name>ExtraIngredients</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="15" column="21" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="15" bodyend="15"/>
+        <referencedby refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e" compoundref="_custom_pizza_factory_8cs" startline="18" endline="33">PizzazzLibrary.Implementation.CustomPizzaFactory.PreparePizza</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza PizzazzLibrary.Implementation.CustomPizzaFactory.PreparePizza</definition>
+        <argsstring>()</argsstring>
+        <name>PreparePizza</name>
+        <reimplements refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory_1a20183671e617d58bac4f5b315b9a5289">PreparePizza</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="18" column="22" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="18" bodyend="33"/>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1aa01fec0af544718e780252ff15a33239" compoundref="_custom_pizza_decorator_8cs" startline="38" endline="41">PizzazzLibrary.Implementation.CustomPizaDecorator.AddIngredient</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1adc49418de2796549d547b1d93dad612c" compoundref="_custom_pizza_factory_8cs" startline="13" endline="13">PizzazzLibrary.Implementation.CustomPizzaFactory.BasePizza</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a5135a5dfa3e88be7d2b803f75fa69061" compoundref="_custom_pizza_factory_8cs" startline="14" endline="14">PizzazzLibrary.Implementation.CustomPizzaFactory.DecoratedPizza</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a417478e3ae4e37fc7d271b5e0f0dbe4b" compoundref="_custom_pizza_factory_8cs" startline="15" endline="15">PizzazzLibrary.Implementation.CustomPizzaFactory.ExtraIngredients</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_custom_piza_decorator_1a5caa586e10fc3b86a00dd9b2b764ca7a" compoundref="_custom_pizza_decorator_8cs" startline="25" endline="30">PizzazzLibrary.Implementation.CustomPizaDecorator.Prepare</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PizzazzLibrary.Implementation.CustomPizzaFactory</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Implementation.CustomPizzaFactory</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPizzaFactory</label>
+        <link refid="interface_pizzazz_library_1_1_interfaces_1_1_i_pizza_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" line="11" column="1" bodyfile="PizzazzLibrary/Pizza/Implementation/CustomPizzaFactory.cs" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1adc49418de2796549d547b1d93dad612c" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::CustomPizzaFactory</scope><name>BasePizza</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a5135a5dfa3e88be7d2b803f75fa69061" prot="private" virt="non-virtual"><scope>PizzazzLibrary::Implementation::CustomPizzaFactory</scope><name>DecoratedPizza</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1a417478e3ae4e37fc7d271b5e0f0dbe4b" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::CustomPizzaFactory</scope><name>ExtraIngredients</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory_1acec1ebe7e287c1756b7d72c24ea2d45e" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::CustomPizzaFactory</scope><name>PreparePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

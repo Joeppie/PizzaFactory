@@ -1,0 +1,10 @@
+<map id="PizzazzLibrary.Ingredients.Interfaces.Ingredient" name="PizzazzLibrary.Ingredients.Interfaces.Ingredient">
+<area shape="rect" id="node1" title=" " alt="" coords="512,5,691,171"/>
+<area shape="rect" id="node2" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil.html" title=" " alt="" coords="5,226,184,347"/>
+<area shape="rect" id="node3" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese.html" title=" " alt="" coords="208,226,387,347"/>
+<area shape="rect" id="node4" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_dough.html" title=" " alt="" coords="411,219,589,355"/>
+<area shape="rect" id="node5" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami.html" title=" " alt="" coords="613,226,792,347"/>
+<area shape="rect" id="node6" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato.html" title=" " alt="" coords="816,226,995,347"/>
+<area shape="rect" id="node7" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce.html" title=" " alt="" coords="1019,226,1213,347"/>
+<area shape="rect" id="node8" href="$class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce.html" title=" " alt="" coords="1003,403,1229,509"/>
+</map>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Implementation::PizzaMargherita</compoundname>
+    <basecompoundref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator" prot="public" virt="non-virtual">PizzazzLibrary.Implementation.PizzaDecorator</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1aa0f246751ff269cc191a51b68015755e" prot="public" static="no" mutable="no">
+        <type>override double</type>
+        <definition>override double PizzazzLibrary.Implementation.PizzaMargherita.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <initializer>=&gt; base.Price * 0.80</initializer>
+        <briefdescription>
+<para>The <ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref> Margherita is quite cheap, so costs less than the loose ingredients. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" line="26" column="32" bodyfile="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a399b147e9eaca29d52bc148f42eff7b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PizzazzLibrary.Implementation.PizzaMargherita.PizzaMargherita</definition>
+        <argsstring>()</argsstring>
+        <name>PizzaMargherita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" line="11" column="16" bodyfile="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1ac3740e6ea596a05c7579b7eefe803e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PizzazzLibrary.Implementation.PizzaMargherita.PizzaMargherita</definition>
+        <argsstring>(Pizza pizzaToDecorate)</argsstring>
+        <name>PizzaMargherita</name>
+        <param>
+          <type><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref></type>
+          <declname>pizzaToDecorate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" line="13" column="16" bodyfile="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a6de40a745873ab341579335cf33711bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PizzazzLibrary.Implementation.PizzaMargherita.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a0e6b0fd72943131491313136b33a71c6">Prepare</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" line="15" column="30" bodyfile="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" bodystart="15" bodyend="21"/>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1ad2e06f7ead0687daa22ce0188f0a3507" compoundref="_pizza_8cs" startline="20">PizzazzLibrary.Implementation.Pizza._ingredients</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PizzazzLibrary.Implementation.PizzaMargherita</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PizzaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pizza</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Implementation.PizzaMargherita</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PizzaDecorator</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pizza</label>
+        <link refid="class_pizzazz_library_1_1_implementation_1_1_pizza"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" line="10" column="1" bodyfile="PizzazzLibrary/Pizza/Implementation/PizzaMargherita.cs" bodystart="9" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1ad2e06f7ead0687daa22ce0188f0a3507" prot="protected" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>_ingredients</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a5b1b0a742974af9c94be7f83dd18255a" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1aa9d60bb338ec02bff81239ed4a2faa4f" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>Cut</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator_1a44dbe6b583570be09dd3d3446c3d1723" prot="protected" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>decoratedPizza</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a7cad763c3c7316616d512f5135d74a4b" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>Ingredients</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1aa848c237cc13d5416a9d73c8814ab17f" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>IsBaked</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a08f59b16c8da09dc4829e8ce4aea738b" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>IsCut</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a17d89a34b2a8acc5f445620d876b238c" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>IsPackaged</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a20da270959a5da228fa0a42206460731" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>IsPrepared</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1a610c10d15ec0927c91be1de3bece2270" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>Package</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_decorator_1a661f7b48b26288f94e7415e24dfe1dae" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>PizzaDecorator</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a399b147e9eaca29d52bc148f42eff7b9" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>PizzaMargherita</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1ac3740e6ea596a05c7579b7eefe803e2d" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>PizzaMargherita</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1a6de40a745873ab341579335cf33711bf" prot="public" virt="virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>Prepare</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_1aa0f246751ff269cc191a51b68015755e" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_implementation_1_1_pizza_1aa4823088551ab83ce3616dc1bdbbcb25" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Implementation::PizzaMargherita</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

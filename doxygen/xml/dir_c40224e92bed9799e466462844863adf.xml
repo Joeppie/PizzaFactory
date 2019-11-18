@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_c40224e92bed9799e466462844863adf" kind="dir">
+    <compoundname>PizzazzLibrary/obj/Debug/netstandard2.0</compoundname>
+    <innerfile refid="_debug_2netstandard2_80_2_pizzazz_library_8_assembly_info_8cs">PizzazzLibrary.AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/obj/Debug/netstandard2.0/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_0cc4ed8f7e8bfaf61a065079a5407e8d" kind="dir">
+    <compoundname>Pizzazz</compoundname>
+    <innerdir refid="dir_08343a6c94939c8a993f201983231edb">Pizzazz/Properties</innerdir>
+    <innerfile refid="_delivery_8cs">Delivery.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Pizzazz/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innerclass refid="class_pizzazz_1_1_program" prot="public">Pizzazz::Program</innerclass>
+    <innernamespace refid="namespace_pizzazz">Pizzazz</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespace_system_1_1_diagnostics">System::Diagnostics</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_ingredients" kindref="compound">Ingredients</ref>.<ref refid="namespace_pizzazz_library_1_1_ingredients_1_1_implementation" kindref="compound">Implementation</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_ingredients" kindref="compound">Ingredients</ref>.<ref refid="namespace_pizzazz_library_1_1_ingredients_1_1_interfaces" kindref="compound">Interfaces</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_pizzazz_library" kindref="compound">PizzazzLibrary</ref>.<ref refid="namespace_pizzazz_library_1_1_implementation" kindref="compound">Implementation</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Diagnostics;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_pizzazz" kindref="compound">Pizzazz</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="class_pizzazz_1_1_program" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pizzazz_1_1_program" kindref="compound">Program</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" kindref="member">Main</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/>args)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//De<sp/>PizzaMargheritaFactory<sp/>is<sp/>een<sp/>singleton;<sp/>er<sp/>is<sp/>er<sp/>maar<sp/>één;<sp/>ze<sp/>zijn<sp/>allemaal<sp/>toch<sp/>precies<sp/>hetzelfde.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>rauwePizza<sp/>=<sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory" kindref="compound">PizzaMargheritaFactory</ref>.<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" kindref="member">Instance</ref>.<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aec407cf7ac8bf57aa19efebb8a6f083c" kindref="member">PreparePizza</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine($</highlight><highlight class="stringliteral">&quot;Vers<sp/>uit<sp/>de<sp/>singleton:<sp/>{rauwePizza}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debugger.Break();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" kindref="member">GoedkopePizza</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" kindref="member">DurePizza</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" kindref="member">PizzaMargheritaMetSalami</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" kindref="member">GoedkopePizza</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Maak<sp/>een<sp/>goedkope<sp/>pizza<sp/>margherita.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_1_1_pizza_delivery" kindref="compound">PizzaDelivery</ref><sp/>cheapDelivery<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_pizza_delivery" kindref="compound">PizzaDelivery</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cheapDelivery.<ref refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" kindref="member">factory</ref><sp/>=<sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory" kindref="compound">PizzaMargheritaFactory</ref>.<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" kindref="member">Instance</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref><sp/>goodDeal<sp/>=<sp/>cheapDelivery.<ref refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" kindref="member">DeliverPizza</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine($</highlight><highlight class="stringliteral">&quot;GoedkopePizza()<sp/>\r\n\t<sp/>{goodDeal}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debugger.Break();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" kindref="member">DurePizza</ref>()</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Maak<sp/>een<sp/>duurdere<sp/>pizza<sp/>margherita<sp/>door<sp/>zelf<sp/>een<sp/>eigen<sp/>pizza<sp/>samen<sp/>te<sp/>stellen<sp/>vanaf<sp/>het<sp/>deeg<sp/>(dom!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Betere<sp/>keuze<sp/>is<sp/>alleen<sp/>toevoegen<sp/>wat<sp/>er<sp/>nog<sp/>op<sp/>moet;<sp/>omdat<sp/>je<sp/>anders<sp/>per<sp/>ingredient<sp/>extra<sp/>veel<sp/>betaalt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>expensiveDelivery<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_pizza_delivery" kindref="compound">PizzaDelivery</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>customFactory<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory" kindref="compound">CustomPizzaFactory</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>customFactory.ExtraIngredients<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Ingredient&gt;()<sp/>{<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce" kindref="compound">TomatoSauce</ref>(),<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_cheese" kindref="compound">Cheese</ref>(),<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil" kindref="compound">Basil</ref>()<sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expensiveDelivery.factory<sp/>=<sp/>customFactory;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref><sp/>badDeal<sp/>=<sp/>expensiveDelivery.DeliverPizza();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine($</highlight><highlight class="stringliteral">&quot;DurePizza()<sp/>\r\n\t<sp/>{badDeal}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debugger.Break();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" kindref="member">PizzaMargheritaMetSalami</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>expensiveDelivery<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_1_1_pizza_delivery" kindref="compound">PizzaDelivery</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>customFactory<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_custom_pizza_factory" kindref="compound">CustomPizzaFactory</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Geef<sp/>aan<sp/>welke<sp/>Pizza<sp/>als<sp/>basis<sp/>gebruikt<sp/>moet<sp/>gaan<sp/>worden;<sp/>dit<sp/>levert<sp/>aan<sp/>beter<sp/>prijs<sp/>plaatje<sp/>op.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>customFactory.BasePizza<sp/>=<sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory" kindref="compound">PizzaMargheritaFactory</ref>.<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" kindref="member">Instance</ref>.<ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aec407cf7ac8bf57aa19efebb8a6f083c" kindref="member">PreparePizza</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Het<sp/>enige<sp/>extra<sp/>ingredient<sp/>is<sp/>salami.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>customFactory.ExtraIngredients<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Ingredient&gt;()<sp/>{<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_salami" kindref="compound">Salami</ref>()};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expensiveDelivery.factory<sp/>=<sp/>customFactory;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pizzazz_library_1_1_implementation_1_1_pizza" kindref="compound">Pizza</ref><sp/>NotBadNotGreatDeal<sp/>=<sp/>expensiveDelivery.DeliverPizza();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine($</highlight><highlight class="stringliteral">&quot;PizzaMargheritaMetSalami()<sp/>\r\n\t<sp/>{NotBadNotGreatDeal}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debugger.Break();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Pizzazz/Program.cs"/>
+  </compounddef>
+</doxygen>

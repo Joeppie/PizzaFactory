@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Ingredients::Implementation::Basil</compoundname>
+    <basecompoundref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" prot="public" virt="non-virtual">PizzazzLibrary.Ingredients.Interfaces.Ingredient</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1a3e53a531619643d6c8de62de84d146cc" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.Basil.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>=&gt; &quot;Basil&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="53" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1a8b3f2c504c6ace35fd31a32ff2ebb7b1" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.Basil.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>=&gt; (!<ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" kindref="member">Baked</ref> ? &quot;Fresh raw basil&quot; : &quot;Fresh, cooked basil&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="54" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1aebb9a980639e133e65bdf1f169af6520" prot="public" static="no" mutable="no">
+        <type>override double</type>
+        <definition>override double PizzazzLibrary.Ingredients.Implementation.Basil.CostPrice</definition>
+        <argsstring></argsstring>
+        <name>CostPrice</name>
+        <initializer>=&gt; 0.10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="55" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.Basil</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.Basil</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="52" column="1" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="51" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a7aaf3bd0d4d649aeb2488fa71c06982c" prot="package" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>Baked</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1aebb9a980639e133e65bdf1f169af6520" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>CostPrice</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1a8b3f2c504c6ace35fd31a32ff2ebb7b1" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>Description</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_basil_1a3e53a531619643d6c8de62de84d146cc" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>Name</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a52839439e3cf21af8ef8ef2ebeda16d5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a4b121a55ebf9066e948cbdfc5463c981" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Basil</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

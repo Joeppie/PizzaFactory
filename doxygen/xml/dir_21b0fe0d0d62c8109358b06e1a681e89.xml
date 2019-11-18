@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_21b0fe0d0d62c8109358b06e1a681e89" kind="dir">
+    <compoundname>PizzazzLibrary/Pizza/Implementation</compoundname>
+    <innerfile refid="_custom_pizza_decorator_8cs">CustomPizzaDecorator.cs</innerfile>
+    <innerfile refid="_custom_pizza_factory_8cs">CustomPizzaFactory.cs</innerfile>
+    <innerfile refid="_pizza_8cs">Pizza.cs</innerfile>
+    <innerfile refid="_pizza_margherita_8cs">PizzaMargherita.cs</innerfile>
+    <innerfile refid="_pizza_margherita_factory_8cs">PizzaMargheritaFactory.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PizzazzLibrary/Pizza/Implementation/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="PizzazzLibrary.Pizza.Interfaces.IPizzaFactory" name="PizzazzLibrary.Pizza.Interfaces.IPizzaFactory">
+<area shape="rect" id="node1" title=" " alt="" coords="153,5,363,97"/>
+<area shape="rect" id="node2" href="$class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_custom_pizza_factory.html" title=" " alt="" coords="5,160,247,267"/>
+<area shape="rect" id="node3" href="$class_pizzazz_library_1_1_pizza_1_1_implementation_1_1_pizza_margherita_factory.html" title="Singleton implementation Margherita pizza only producing factory." alt="" coords="271,145,512,281"/>
+</map>

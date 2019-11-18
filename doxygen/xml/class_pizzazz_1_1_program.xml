@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>Pizzazz::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pizzazz.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pizzazz/Program.cs" line="16" column="21" bodyfile="Pizzazz/Program.cs" bodystart="16" bodyend="28"/>
+        <references refid="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" compoundref="_program_8cs" startline="42" endline="56">Pizzazz.Program.DurePizza</references>
+        <references refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" compoundref="_program_8cs" startline="30" endline="40">Pizzazz.Program.GoedkopePizza</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" compoundref="_pizza_margherita_factory_8cs" startline="26" endline="31">PizzazzLibrary.Implementation.PizzaMargheritaFactory.Instance</references>
+        <references refid="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" compoundref="_program_8cs" startline="59" endline="76">Pizzazz.Program.PizzaMargheritaMetSalami</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aec407cf7ac8bf57aa19efebb8a6f083c" compoundref="_pizza_margherita_factory_8cs" startline="33" endline="40">PizzazzLibrary.Implementation.PizzaMargheritaFactory.PreparePizza</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pizzazz.Program.GoedkopePizza</definition>
+        <argsstring>()</argsstring>
+        <name>GoedkopePizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pizzazz/Program.cs" line="30" column="21" bodyfile="Pizzazz/Program.cs" bodystart="30" bodyend="40"/>
+        <references refid="class_pizzazz_1_1_pizza_delivery_1a607ac3d199d74f438f4199436ac371f0" compoundref="_delivery_8cs" startline="19" endline="32">Pizzazz.PizzaDelivery.DeliverPizza</references>
+        <references refid="class_pizzazz_1_1_pizza_delivery_1a75213caea5083b16de75a94e627e025e" compoundref="_delivery_8cs" startline="12" endline="12">Pizzazz.PizzaDelivery.factory</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" compoundref="_pizza_margherita_factory_8cs" startline="26" endline="31">PizzazzLibrary.Implementation.PizzaMargheritaFactory.Instance</references>
+        <referencedby refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" compoundref="_program_8cs" startline="16" endline="28">Pizzazz.Program.Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pizzazz.Program.DurePizza</definition>
+        <argsstring>()</argsstring>
+        <name>DurePizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pizzazz/Program.cs" line="42" column="21" bodyfile="Pizzazz/Program.cs" bodystart="42" bodyend="56"/>
+        <referencedby refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" compoundref="_program_8cs" startline="16" endline="28">Pizzazz.Program.Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Pizzazz.Program.PizzaMargheritaMetSalami</definition>
+        <argsstring>()</argsstring>
+        <name>PizzaMargheritaMetSalami</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pizzazz/Program.cs" line="59" column="21" bodyfile="Pizzazz/Program.cs" bodystart="59" bodyend="76"/>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aff7102fc6ac8d0a570724d5969fc4323" compoundref="_pizza_margherita_factory_8cs" startline="26" endline="31">PizzazzLibrary.Implementation.PizzaMargheritaFactory.Instance</references>
+        <references refid="class_pizzazz_library_1_1_implementation_1_1_pizza_margherita_factory_1aec407cf7ac8bf57aa19efebb8a6f083c" compoundref="_pizza_margherita_factory_8cs" startline="33" endline="40">PizzazzLibrary.Implementation.PizzaMargheritaFactory.PreparePizza</references>
+        <referencedby refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" compoundref="_program_8cs" startline="16" endline="28">Pizzazz.Program.Main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pizzazz.Program</label>
+        <link refid="class_pizzazz_1_1_program"/>
+      </node>
+    </collaborationgraph>
+    <location file="Pizzazz/Program.cs" line="15" column="1" bodyfile="Pizzazz/Program.cs" bodystart="14" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_1_1_program_1a1297be8d0a88a676b4b24e4af36a5c79" prot="private" virt="non-virtual"><scope>Pizzazz::Program</scope><name>DurePizza</name></member>
+      <member refid="class_pizzazz_1_1_program_1ae8bf38ff433befa82d40a0204f869103" prot="private" virt="non-virtual"><scope>Pizzazz::Program</scope><name>GoedkopePizza</name></member>
+      <member refid="class_pizzazz_1_1_program_1a55d55eef333d0da99e7bb5e2cd1516af" prot="private" virt="non-virtual"><scope>Pizzazz::Program</scope><name>Main</name></member>
+      <member refid="class_pizzazz_1_1_program_1a661bdea260afbfb4c3ba43bbc5d5d2d7" prot="private" virt="non-virtual"><scope>Pizzazz::Program</scope><name>PizzaMargheritaMetSalami</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

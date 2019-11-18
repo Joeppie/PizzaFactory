@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</compoundname>
+    <basecompoundref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce" prot="public" virt="non-virtual">PizzazzLibrary.Ingredients.Implementation.TomatoSauce</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce_1af1e696e3f0c4f482f2ab21305b135bed" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.SpicyTomatoSauce.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>=&gt; &quot;Spicy <ref refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato" kindref="compound">Tomato</ref> Sauce&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="33" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce_1a94a13dd7906d949627e47f810e04bdfc" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.SpicyTomatoSauce.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>=&gt; (!<ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" kindref="member">Baked</ref> ? &quot;Chunky raw, spicy tomato sauce&quot; : &quot;Smooth and spicy tomato sauce&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="34" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.SpicyTomatoSauce</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TomatoSauce</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.SpicyTomatoSauce</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TomatoSauce</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="32" column="1" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a7aaf3bd0d4d649aeb2488fa71c06982c" prot="package" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>Baked</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_sauce_1aedc3d4d6e3a60b9dd83d9db484e7fb82" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>CostPrice</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce_1a94a13dd7906d949627e47f810e04bdfc" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>Description</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_spicy_tomato_sauce_1af1e696e3f0c4f482f2ab21305b135bed" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>Name</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a52839439e3cf21af8ef8ef2ebeda16d5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a4b121a55ebf9066e948cbdfc5463c981" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::SpicyTomatoSauce</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

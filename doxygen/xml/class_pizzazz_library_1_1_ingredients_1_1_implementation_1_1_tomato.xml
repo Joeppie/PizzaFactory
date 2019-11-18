@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato" kind="class" language="C#" prot="public">
+    <compoundname>PizzazzLibrary::Ingredients::Implementation::Tomato</compoundname>
+    <basecompoundref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient" prot="public" virt="non-virtual">PizzazzLibrary.Ingredients.Interfaces.Ingredient</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1af78343cd6789dc7f9806398e9ff46767" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.Tomato.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>=&gt; &quot;Tomato Slices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="18" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1a88bd8966adaab7a51032344cb8649414" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string PizzazzLibrary.Ingredients.Implementation.Tomato.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>=&gt; (!<ref refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" kindref="member">Baked</ref> ? &quot;Raw tasteless tomato&quot; : &quot;Nice Juicy tomato slices.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="20" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1acde754afcecbbfe3a7cc8820d4dde4f1" prot="public" static="no" mutable="no">
+        <type>override double</type>
+        <definition>override double PizzazzLibrary.Ingredients.Implementation.Tomato.CostPrice</definition>
+        <argsstring></argsstring>
+        <name>CostPrice</name>
+        <initializer>=&gt; 0.05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="21" column="32" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.Tomato</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ingredient</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient"/>
+      </node>
+      <node id="1">
+        <label>PizzazzLibrary.Ingredients.Implementation.Tomato</label>
+        <link refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" line="17" column="1" bodyfile="PizzazzLibrary/Ingredients/Implementation/BasicIngredients.cs" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a7aaf3bd0d4d649aeb2488fa71c06982c" prot="package" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>Bake</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a27aa973f03bdcddcee883cfb80db1ac6" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>Baked</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1acde754afcecbbfe3a7cc8820d4dde4f1" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>CostPrice</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1a88bd8966adaab7a51032344cb8649414" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>Description</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_implementation_1_1_tomato_1af78343cd6789dc7f9806398e9ff46767" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>Name</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a52839439e3cf21af8ef8ef2ebeda16d5" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>Price</name></member>
+      <member refid="class_pizzazz_library_1_1_ingredients_1_1_interfaces_1_1_ingredient_1a4b121a55ebf9066e948cbdfc5463c981" prot="public" virt="non-virtual"><scope>PizzazzLibrary::Ingredients::Implementation::Tomato</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

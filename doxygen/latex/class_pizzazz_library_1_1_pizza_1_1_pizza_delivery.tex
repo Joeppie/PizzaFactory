@@ -1,0 +1,115 @@
+\hypertarget{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery}{}\doxysection{Pizzazz\+Library.\+Pizza.\+Pizza\+Delivery Class Reference}
+\label{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery}\index{PizzazzLibrary.Pizza.PizzaDelivery@{PizzazzLibrary.Pizza.PizzaDelivery}}
+
+
+Someone who makes pizzas. The secret of this cook is that he uses a factory to do the hard work.  
+
+
+
+
+Collaboration diagram for Pizzazz\+Library.\+Pizza.\+Pizza\+Delivery\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza}{Pizza}} \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_ad9d2518b6e46fa4dd49354847c00e146}{Deliver\+Pizza}} (bool cut=true)
+\begin{DoxyCompactList}\small\item\em Delivers a pizza which is optionally cut. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory}{I\+Pizza\+Factory}} \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_a0718a0d5efdb8b274788f8fe5bb2f300}{factory}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Someone who makes pizzas. The secret of this cook is that he uses a factory to do the hard work. 
+
+
+
+Definition at line 12 of file Pizza\+Delivery.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_ad9d2518b6e46fa4dd49354847c00e146}\label{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_ad9d2518b6e46fa4dd49354847c00e146}} 
+\index{PizzazzLibrary.Pizza.PizzaDelivery@{PizzazzLibrary.Pizza.PizzaDelivery}!DeliverPizza@{DeliverPizza}}
+\index{DeliverPizza@{DeliverPizza}!PizzazzLibrary.Pizza.PizzaDelivery@{PizzazzLibrary.Pizza.PizzaDelivery}}
+\doxysubsubsection{\texorpdfstring{DeliverPizza()}{DeliverPizza()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza}{Pizza}} Pizzazz\+Library.\+Pizza.\+Pizza\+Delivery.\+Deliver\+Pizza (\begin{DoxyParamCaption}\item[{bool}]{cut = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Delivers a pizza which is optionally cut. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cut} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 21 of file Pizza\+Delivery.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22         \{}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24             var pizza = \mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_a0718a0d5efdb8b274788f8fe5bb2f300}{factory}}.\mbox{\hyperlink{interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory_a6ff9684bfd21e5c83a139a47e212d0d8}{PreparePizza}}();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26             pizza.\mbox{\hyperlink{class_pizzazz_library_1_1_pizza_1_1_pizza_a633cf9558cba420e1d417a71995f00df}{Bake}}();}
+\DoxyCodeLine{27             \textcolor{keywordflow}{if} (cut)}
+\DoxyCodeLine{28             \{}
+\DoxyCodeLine{29                 pizza.Cut();}
+\DoxyCodeLine{30             \}}
+\DoxyCodeLine{31             pizza.Package();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33             \textcolor{keywordflow}{return} pizza;}
+\DoxyCodeLine{34         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_ad9d2518b6e46fa4dd49354847c00e146_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_ad9d2518b6e46fa4dd49354847c00e146_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_a0718a0d5efdb8b274788f8fe5bb2f300}\label{class_pizzazz_library_1_1_pizza_1_1_pizza_delivery_a0718a0d5efdb8b274788f8fe5bb2f300}} 
+\index{PizzazzLibrary.Pizza.PizzaDelivery@{PizzazzLibrary.Pizza.PizzaDelivery}!factory@{factory}}
+\index{factory@{factory}!PizzazzLibrary.Pizza.PizzaDelivery@{PizzazzLibrary.Pizza.PizzaDelivery}}
+\doxysubsubsection{\texorpdfstring{factory}{factory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_pizzazz_library_1_1_pizza_1_1_interfaces_1_1_i_pizza_factory}{I\+Pizza\+Factory}} Pizzazz\+Library.\+Pizza.\+Pizza\+Delivery.\+factory\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 14 of file Pizza\+Delivery.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14 \{ \textcolor{keyword}{get};  \textcolor{keyword}{set}; \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Pizzazz\+Library/\+Pizza/\mbox{\hyperlink{_pizza_delivery_8cs}{Pizza\+Delivery.\+cs}}\end{DoxyCompactItemize}
