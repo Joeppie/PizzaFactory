@@ -7,6 +7,7 @@ namespace PizzazzLibrary.Implementation
 {
     /// <summary>
     /// Singleton implementation Margherita pizza only producing factory.
+    /// taken from/inspired by.: <seealso cref="https://csharpindepth.com/articles/singleton"/>
     /// </summary>
     public class PizzaMargheritaFactory : IPizzaFactory
     {
