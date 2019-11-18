@@ -15,28 +15,16 @@ namespace PizzazzLibrary.Implementation
 
         // Explicit static constructor to tell C# compiler
         // not to mark type as beforefieldinit
-        static PizzaMargheritaFactory()
-        {
-        }
+        static PizzaMargheritaFactory() { }
 
-        private PizzaMargheritaFactory()
-        {
-        }
+        private PizzaMargheritaFactory() {   }
 
-        public static PizzaMargheritaFactory Instance
-        {
-            get
-            {
-                return instance;
-            }
-        }
-
+        public static PizzaMargheritaFactory Instance => instance;
+        
         public Pizza PreparePizza()
         {
             var pizza = new PizzaMargherita();                                              
-
             pizza.Prepare();
-            
             return pizza;
         }
     }

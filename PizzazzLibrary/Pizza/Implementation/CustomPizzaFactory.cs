@@ -9,11 +9,9 @@ namespace PizzazzLibrary.Implementation
 {
     public class CustomPizzaFactory : IPizzaFactory
     {
-
         public Pizza BasePizza { get; set; }
         private CustomPizaDecorator DecoratedPizza { get; set; }
         public List<Ingredient> ExtraIngredients { get; set; }
-
 
         public Pizza PreparePizza()
         {

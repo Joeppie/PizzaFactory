@@ -31,6 +31,8 @@ namespace Pizzazz
         {
             //Maak een goedkope pizza margherita.
             PizzaDelivery cheapDelivery = new PizzaDelivery();
+
+            //We bepalen hier met een property welke pizza wordt gebruikt door onze delivery.
             cheapDelivery.factory = PizzaMargheritaFactory.Instance;
             Pizza goodDeal = cheapDelivery.DeliverPizza();
 
